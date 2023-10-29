@@ -1,3 +1,17 @@
+# Scripts notes
+
+1. extract specs for configs
+```bash
+for topo in $(find /opt/research/config2spec/scenarios/confmask/fattree04-ospf/ -mindepth 1 -maxdepth 1 -type d); do
+  python run_c2s.py -mf 0 $topo /opt/research/c2s-batfish/projects/backend/target/backend-bundle-0.36.0.jar /opt/research/c2s-batfish-data
+done
+```
+
+2. find policies in `origin` and not in the anonymized
+```bash
+comm -23 <(sort origin/policies.csv) <(sort anonym-network-k10-2-w-noise-n/policies.csv) > origin/not-in-anonym-network-k10-2-w-noise-n.csv
+```
+
 # Config2Spec: Mining Network Specifications from Network Configurations
 
 This repository contains the code of the Config2Spec project: A system
