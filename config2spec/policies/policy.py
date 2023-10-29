@@ -76,6 +76,9 @@ class PolicyDestination(object):
         self.router = router
         self.interface = interface
         self.subnet = subnet
+    
+    def __repr__(self):
+        return self.__str__()
 
     def __str__(self):
         return "{router}:{interface} ({subnet})".format(

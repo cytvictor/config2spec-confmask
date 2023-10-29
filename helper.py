@@ -79,6 +79,7 @@ def build_network(backend, scenario_path, max_failures, waypoints_min, waypoints
     all_routers = network.nodes()
     num_waypoints = max(waypoints_min, int(len(all_routers) / waypoints_fraction))
     waypoints = random.sample(all_routers, num_waypoints)
+    waypoints = all_routers
 
     links = list()
     all_edges = network.get_undirected_edges()
@@ -196,7 +197,7 @@ class Pipeline(object):
         start_time = time.time()
 
         # pick the concrete env to use
-        if first:
+        if first or True:
             concrete_env = self.sampler.get_all_up()
         elif self.sampler.fwd_state_based:
             concrete_env = self.sampler.get_next_env(self.prev_forwarding_graphs)
