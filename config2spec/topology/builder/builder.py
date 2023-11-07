@@ -99,6 +99,8 @@ class TopologyBuilder(object):
     def get_prefix(prefix_string):
         if prefix_string == "any":
             prefix = "0.0.0.0/0"
+        elif prefix_string.startswith("host"):
+            prefix = "{}/32".format(prefix_string.split()[1])
         else:
             network = prefix_string.split()[0]
             subnet_mask = prefix_string.split()[1]

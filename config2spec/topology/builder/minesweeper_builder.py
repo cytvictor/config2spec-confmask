@@ -131,10 +131,11 @@ class BackendTopologyBuilder(TopologyBuilder):
                 else:
                     ip_regex = "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
 
-                    acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)\sip\s"
-                                 "(?P<source>any|{ip_regex}\s{ip_regex})\s"
-                                 "(?P<destination>any|{ip_regex}\s{ip_regex})$".format(ip_regex=ip_regex))
-
+                    acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)\s+ip\s+"
+                                "(?P<source>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})\s+"
+                                "(?P<destination>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})$"
+                                 .format(ip_regex=ip_regex))
+                    print(line)
                     acl_match = re.match(acl_regex, line)
                     acl_data = acl_match.groupdict()
 

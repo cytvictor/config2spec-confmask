@@ -12,6 +12,14 @@ done
 comm -23 <(sort origin/policies.csv) <(sort anonym-network-k10-2-w-noise-n/policies.csv) > origin/not-in-anonym-network-k10-2-w-noise-n.csv
 ```
 
+3. print line count for all `policies.csv` under this directory
+```bash
+for f in $(find * | grep -E "policies.csv"); do
+    line_count=$(cat "$f" | wc -l)
+    printf "%-70s %5d\n" "$f" "$line_count"
+done 
+```
+
 # Config2Spec: Mining Network Specifications from Network Configurations
 
 This repository contains the code of the Config2Spec project: A system

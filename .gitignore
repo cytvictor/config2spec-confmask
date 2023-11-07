@@ -158,3 +158,9 @@ fabric.properties
 
 # Own Log Files
 logs/*
+batfish_interface/batfish-73946b2f1bdea5f1146e4db4f2586e071da752df
+**/acls.txt
+**/interfaces.txt
+**/topology.txt
+**/fibs/
+**/confmask/
