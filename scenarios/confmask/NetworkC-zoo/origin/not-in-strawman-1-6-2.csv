@@ -1,0 +1,6 @@
+PolicyType.LoadBalancingSimple,2.128.9.0/24,2,r4,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r4
+PolicyType.Waypoint,2.128.9.0/24,r8,r7,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r7
+PolicyType.Waypoint,2.128.9.0/24,r9,r5,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r5
+PolicyType.Waypoint,2.128.9.0/24,r9,r6,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r6
+PolicyType.Waypoint,2.128.9.0/24,r9,r7,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r7
+PolicyType.Waypoint,2.128.9.0/24,r9,r8,PolicyStatus.HOLDS,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r8

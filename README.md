@@ -3,13 +3,15 @@
 1. extract specs for configs
 ```bash
 for topo in $(find /opt/research/config2spec/scenarios/confmask/fattree04-ospf/ -mindepth 1 -maxdepth 1 -type d); do
-  python run_c2s.py -mf 0 $topo /opt/research/c2s-batfish/projects/backend/target/backend-bundle-0.36.0.jar /opt/research/c2s-batfish-data
+  python run_c2s.py -mf 0 $topo $HOME/research/configs/config2spec-confmask/batfish_interface/batfish-73946b2f1bdea5f1146e4db4f2586e071da752df/projects/backend/target/backend-bundle-0.36.0.jar $HOME/research/configs/config2spec-confmask/batfish_interface/batfish-73946b2f1bdea5f1146e4db4f2586e071da752df
 done
 ```
 
 2. find policies in `origin` and not in the anonymized
 ```bash
-comm -23 <(sort origin/policies.csv) <(sort anonym-network-k10-2-w-noise-n/policies.csv) > origin/not-in-anonym-network-k10-2-w-noise-n.csv
+for topo in $(ls .); do                                                                                            
+comm -23 <(sort origin/policies.csv) <(sort $topo/policies.csv) > ./origin/not-in-$topo.csv       
+done
 ```
 
 3. print line count for all `policies.csv` under this directory

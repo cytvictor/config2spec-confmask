@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     # maximum amount of failures to be allowed
     if args.max_failures is None:
-        max_failures = 1
+        max_failures = 0
     else:
         max_failures = args.max_failures
 

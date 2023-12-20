@@ -1,0 +1,10 @@
+{
+    "hostname": "host3512",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "32.129.88.101/24",
+            "gateway": "32.129.88.1"
+        }
+    }
+}

@@ -1,12 +1,12 @@
 import re
 ip_regex = "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
 
-acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)\s+ip\s+"
-                # "(?P<source>any|host\s{ip_regex}|{ip_regex}\s{ip_regex})\s"
-                # "(?P<destination>any|host\s{ip_regex}|{ip_regex}\s{ip_regex})$"
+acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)(\s+ip|\s+)"
+            "(?P<source>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})"
+            "(\s+(?P<destination>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})|)$"
                 .format(ip_regex=ip_regex))
 print(acl_regex)
-line = "INSIDE_TO_AS3:deny   ip any any"
+line = "1:deny 2.128.3.0 0.0.0.255"
 acl_match = re.match(acl_regex, line)
 if acl_match is None:
     acl_data = {}

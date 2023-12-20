@@ -131,16 +131,19 @@ class BackendTopologyBuilder(TopologyBuilder):
                 else:
                     ip_regex = "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
 
-                    acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)\s+ip\s+"
-                                "(?P<source>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})\s+"
-                                "(?P<destination>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})$"
-                                 .format(ip_regex=ip_regex))
+                    acl_regex = ("^(?P<name>\S+):(?P<type>deny|permit)(\s+ip|\s+)"
+                                "(?P<source>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})"
+                                "(\s+(?P<destination>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})|)$"
+                                    .format(ip_regex=ip_regex))
                     print(line)
                     acl_match = re.match(acl_regex, line)
                     acl_data = acl_match.groupdict()
 
                     source = TopologyBuilder.get_prefix(acl_data["source"])
-                    destination = TopologyBuilder.get_prefix(acl_data["destination"])
+                    if destination is None:
+                        destination = TopologyBuilder.get_prefix(acl_data["destination"])
+                    else:
+                        destination = TopologyBuilder.get_prefix(acl_data["destination"])
 
                     if acl_data["name"] not in access_lists:
                         access_lists[router][acl_data["name"]] = AccessList(acl_data["name"])
