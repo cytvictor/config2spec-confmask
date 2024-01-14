@@ -147,6 +147,7 @@ class PolicyDB(object):
             raw_policies = self.policies.iloc[0].name
 
         if group:
+            print(raw_policies)
             raw_group = raw_policies.groupby(["type", "subnet", "specifics"], sort=False).aggregate({"Sources": list, "Destinations": list}).iloc[0]
 
             policy_type, _, specifics = raw_group.name

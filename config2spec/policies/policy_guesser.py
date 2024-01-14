@@ -56,6 +56,9 @@ class PolicyGuesser(object):
         return policies
 
     def get_reachability_policies(self, policies, forwarding_graphs, dominator_graphs, node_local_reachability=False):
+        for pfx in forwarding_graphs:
+            g = forwarding_graphs[pfx]
+            print(pfx, g.nodes, g.edges())
 
         all_nodes = set(self.network.nodes())
 

@@ -73,6 +73,7 @@ class BackendTopologyBuilder(TopologyBuilder):
                     intf2 = "%s" % (edge_data["interface2"],)
 
                 edges.add((edge_data["router1"], intf1, edge_data["router2"], intf2))
+        print(routers, edges)
 
         return routers, edges
 
@@ -116,7 +117,7 @@ class BackendTopologyBuilder(TopologyBuilder):
 
                     subnet = "{network}/{prefix_len}".format(network=ip_data["ip"], prefix_len=ip_data["prefix_len"])
                     interfaces[router][intf_name].set_ip_address(ip_data["ip"], subnet)
-
+        print(interfaces)
         return interfaces
 
     @staticmethod

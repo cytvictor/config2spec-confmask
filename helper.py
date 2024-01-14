@@ -24,6 +24,7 @@ from config2spec.netenv.sum_sampler import PolicySumSampler
 from config2spec.policies.policy_db import PolicyDB
 from config2spec.policies.policy_db import PolicyStatus
 from config2spec.topology.builder.minesweeper_builder import BackendTopologyBuilder
+from config2spec.topology.builder.nethide_builder import NetHideTopologyBuilder
 from config2spec.topology.links import Link
 from config2spec.topology.links import LinkState
 
@@ -71,13 +72,17 @@ def init_backend(ms_manager, scenario, base_path, config_path, port):
     ms_manager.restart(backend_calls=0, force=True)
 
 
-def build_network(backend, scenario_path, max_failures, waypoints_min, waypoints_fraction):
-    topology_files = backend.get_topology()
-    network = BackendTopologyBuilder.build_topology(topology_files, scenario_path)
+def build_network(backend, scenario_path, max_failures, waypoints_min, waypoints_fraction, is_nethide=False):
+    if is_nethide:
+        network = NetHideTopologyBuilder.build_topology(scenario_path)
+    else:
+        topology_files = backend.get_topology()
+        network = BackendTopologyBuilder.build_topology(topology_files, scenario_path)
 
     # get waypoints
     all_routers = network.nodes()
     num_waypoints = max(waypoints_min, int(len(all_routers) / waypoints_fraction))
+    print(num_waypoints)
     waypoints = random.sample(all_routers, num_waypoints)
     waypoints = all_routers
 
@@ -175,7 +180,7 @@ class SlidingTimer(object):
 
 
 class Pipeline(object):
-    def __init__(self, policy_db, sampler, dp_engine, netenv, ms_manager, window_size, network, debug=False):
+    def __init__(self, policy_db, sampler, dp_engine, netenv, ms_manager, window_size, network, debug=False, is_nethide=False):
         self.logger = get_logger("Dense-Sparse-Pipeline", 'DEBUG' if debug else 'INFO')
 
         self.policy_db = policy_db
@@ -192,6 +197,7 @@ class Pipeline(object):
         # temporary variables
         self.prev_forwarding_graphs = None
         self.prev_guess_size = -1
+        self.is_nethide = is_nethide
 
     def sample(self, first=False):
         start_time = time.time()
@@ -209,7 +215,9 @@ class Pipeline(object):
 
         if concrete_env:
             failed_edges = concrete_env.get_links(state=LinkState.DOWN)
-            fib_file_name = self.ms_manager.get_dataplane(failed_edges)
+            fib_file_name = "fib-1.txt"#self.ms_manager.get_dataplane(failed_edges)
+            print("FIB_FILE_NAME", fib_file_name)
+            # exit()
             if fib_file_name:
                 forwarding_graphs = self.dp_engine.get_forwarding_graphs(fib_file_name)
                 dominator_graphs = self.dp_engine.get_dominator_graphs()
@@ -238,6 +246,7 @@ class Pipeline(object):
         num_policies = len(query.sources)
 
         # check policies with Minesweeper
+        print(query)
         response = self.ms_manager.check_query(query)
 
         # update policy db
@@ -279,8 +288,8 @@ class Pipeline(object):
 
         self.logger.info("Running a couple of queries to init the verification timer.")
         # run enough queries to Minesweeper to match the window size of the timers
-        while not self.verification_times.full_window():
-            success = self.verify()
+        # while not self.verification_times.full_window():
+        #     success = self.verify()
 
         self.logger.info("Starting the actual loop.")
         # start with elimination of dense violations using sampling, then decide whether to continue sampling or switch
