@@ -58,7 +58,7 @@ class PolicyGuesser(object):
     def get_reachability_policies(self, policies, forwarding_graphs, dominator_graphs, node_local_reachability=False):
         for pfx in forwarding_graphs:
             g = forwarding_graphs[pfx]
-            print(pfx, g.nodes, g.edges())
+            # print(pfx, g.nodes, g.edges())
 
         all_nodes = set(self.network.nodes())
 
@@ -109,6 +109,7 @@ class PolicyGuesser(object):
 
         start_time = time.time()
         for subnet, graph in dominator_graphs.items():
+            # print(subnet, forwarding_graphs[subnet].edges)
             all_destinations, destinations, dst_routers = self.get_destination_interfaces_for_subnet(subnet, forwarding_graphs[subnet])
 
             # TODO how to deal with Loadbalancing to same prefix, but last hop is different router?!

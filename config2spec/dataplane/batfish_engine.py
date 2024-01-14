@@ -91,7 +91,7 @@ class BatfishEngine(object):
                     # keep track of all prefixes to later compute all forwarding equivalence classes
                     prefix = IPv4Network(raw_prefix)
                     fec_finder.insert_prefix(prefix)
-                    print(route_type, interface, self.next_hops)
+                    # print(route_type, interface, self.next_hops)
 
                     # set next hop as sink if it is a directly connected route
                     if route_type == "ConnectedRoute":

@@ -18,8 +18,8 @@ from config2spec.policies.policy_db import PolicyStatus
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('scenario_path', help='path to scenario', type=str)
-    parser.add_argument('backend_path', help='path to backend executable', type=str)
-    parser.add_argument('batfish_path', help='path to cloned Batfish GitHub repo', type=str)
+    # parser.add_argument('backend_path', help='path to backend executable', type=str)
+    # parser.add_argument('batfish_path', help='path to cloned Batfish GitHub repo', type=str)
     parser.add_argument('-p', '--port', help='port batfish is listening on', type=int, default=8192)
     parser.add_argument('-d', '--debug', help='enable debug output', action='store_true')
     parser.add_argument('-bd', '--backend_debug', help='enable debug output for the backend', action='store_true')
@@ -34,11 +34,11 @@ if __name__ == '__main__':
     scenario = os.path.basename(args.scenario_path)
 
     # all the necessary paths where config, fib and topology files are being stored
-    batfish_path = args.batfish_path  # path to cloned Batfish repo directory
-    backend_path = args.backend_path  # path to Batfish executable
+    # batfish_path = args.batfish_path  # path to cloned Batfish repo directory
+    # backend_path = args.backend_path  # path to Batfish executable
     scenario_path = args.scenario_path
 
-    batfish_port = args.port
+    # batfish_port = args.port
 
     # create backend manager
     # Commented out: no need for NetHide
