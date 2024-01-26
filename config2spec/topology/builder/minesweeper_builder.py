@@ -135,15 +135,15 @@ class BackendTopologyBuilder(TopologyBuilder):
                                 "(?P<source>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})"
                                 "(\s+(?P<destination>any|host\s+{ip_regex}|{ip_regex}\s+{ip_regex})|)$"
                                     .format(ip_regex=ip_regex))
-                    print(line)
+                    print("line", line)
                     acl_match = re.match(acl_regex, line)
                     acl_data = acl_match.groupdict()
 
                     source = TopologyBuilder.get_prefix(acl_data["source"])
-                    if destination is None:
-                        destination = TopologyBuilder.get_prefix(acl_data["destination"])
-                    else:
-                        destination = TopologyBuilder.get_prefix(acl_data["destination"])
+                    # if destination is None:
+                    destination = TopologyBuilder.get_prefix(acl_data["destination"])
+                    # else:
+                        # destination = TopologyBuilder.get_prefix(acl_data["destination"])
 
                     if acl_data["name"] not in access_lists:
                         access_lists[router][acl_data["name"]] = AccessList(acl_data["name"])
