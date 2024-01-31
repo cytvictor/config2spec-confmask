@@ -11,12 +11,18 @@ if len(sys.argv) != 3:
   exit()
 
 JOB_IDX = int(sys.argv[2])
-NETWORKS_DIR = f"/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/{sys.argv[1]}"
+if ":" in sys.argv[1]:
+  NETWORKS_DIR = f"/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/{sys.argv[1].split(':')[0]}"
+else:
+  NETWORKS_DIR = f"/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/{sys.argv[1]}"
 
 # NETWORKS_DIR = "/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/fattree04-ospf"
-networks = glob.glob(NETWORKS_DIR + "/*")
-networks.remove(f"{NETWORKS_DIR}/origin")
-networks.insert(0, f"{NETWORKS_DIR}/origin")
+if ":" in sys.argv[1]:
+  networks = [f"{NETWORKS_DIR}/{n}" for n in sys.argv[1].split(':')[1].split(',')]
+else:
+  networks = glob.glob(NETWORKS_DIR + "/*")
+# networks.remove(f"{NETWORKS_DIR}/origin")
+# networks.insert(0, f"{NETWORKS_DIR}/origin")
 a = None
 bf = None
 results = []
