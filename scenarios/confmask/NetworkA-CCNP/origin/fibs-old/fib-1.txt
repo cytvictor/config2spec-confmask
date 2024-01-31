@@ -1,0 +1,318 @@
+# Router:c1
+## VRF:default
+0.0.0.0/0,GigabitEthernet0/1,ospfE2
+10.0.0.0/30,GigabitEthernet0/0,ConnectedRoute
+10.0.1.0/30,GigabitEthernet0/1,ConnectedRoute
+10.0.1.4/30,GigabitEthernet0/2,ConnectedRoute
+10.0.1.8/30,GigabitEthernet0/0,ospf
+10.0.1.8/30,GigabitEthernet0/1,ospf
+10.0.1.12/30,GigabitEthernet0/0,ospf
+10.0.1.12/30,GigabitEthernet0/2,ospf
+10.0.2.0/30,GigabitEthernet0/3,ConnectedRoute
+10.0.2.4/30,GigabitEthernet0/4,ConnectedRoute
+10.0.2.8/30,GigabitEthernet0/0,ospf
+10.0.2.12/30,GigabitEthernet0/0,ospf
+10.0.2.12/30,GigabitEthernet0/4,ospf
+20.0.0.251/32,GigabitEthernet0/1,ospf
+20.0.0.252/32,GigabitEthernet0/2,ospf
+192.168.1.0/24,GigabitEthernet0/0,ospf
+192.168.2.0/24,GigabitEthernet0/4,ospf
+192.168.4.0/24,GigabitEthernet0/0,ospf
+192.168.5.0/24,GigabitEthernet0/4,ospf
+# Router:c2
+## VRF:default
+0.0.0.0/0,GigabitEthernet0/1,ospfE2
+10.0.0.0/30,GigabitEthernet0/0,ConnectedRoute
+10.0.1.0/30,GigabitEthernet0/0,ospf
+10.0.1.0/30,GigabitEthernet0/1,ospf
+10.0.1.4/30,GigabitEthernet0/0,ospf
+10.0.1.4/30,GigabitEthernet0/2,ospf
+10.0.1.8/30,GigabitEthernet0/1,ConnectedRoute
+10.0.1.12/30,GigabitEthernet0/2,ConnectedRoute
+10.0.2.0/30,GigabitEthernet0/0,ospf
+10.0.2.0/30,GigabitEthernet0/3,ospf
+10.0.2.4/30,GigabitEthernet0/0,ospf
+10.0.2.4/30,GigabitEthernet0/4,ospf
+10.0.2.8/30,GigabitEthernet0/3,ConnectedRoute
+10.0.2.12/30,GigabitEthernet0/4,ConnectedRoute
+20.0.0.251/32,GigabitEthernet0/1,ospf
+20.0.0.252/32,GigabitEthernet0/2,ospf
+192.168.1.0/24,GigabitEthernet0/3,ospf
+192.168.2.0/24,GigabitEthernet0/4,ospf
+192.168.4.0/24,GigabitEthernet0/3,ospf
+192.168.5.0/24,GigabitEthernet0/4,ospf
+# Router:er1
+## VRF:default
+10.0.0.0/30,GigabitEthernet0/2,ospf
+10.0.0.0/30,GigabitEthernet0/3,ospf
+10.0.1.0/30,GigabitEthernet0/2,ConnectedRoute
+10.0.1.4/30,GigabitEthernet0/2,ospf
+10.0.1.8/30,GigabitEthernet0/3,ConnectedRoute
+10.0.1.12/30,GigabitEthernet0/3,ospf
+10.0.2.0/30,GigabitEthernet0/2,ospf
+10.0.2.4/30,GigabitEthernet0/2,ospf
+10.0.2.8/30,GigabitEthernet0/3,ospf
+10.0.2.12/30,GigabitEthernet0/3,ospf
+20.0.0.251/32,Loopback0,ConnectedRoute
+20.0.0.252/32,GigabitEthernet0/2,ospf
+20.0.0.252/32,GigabitEthernet0/3,ospf
+50.0.0.0/20,null_interface,bgp
+50.0.0.12/30,GigabitEthernet0/0,ConnectedRoute
+50.0.0.100/32,null_interface,static
+60.0.0.4/30,GigabitEthernet0/1,ConnectedRoute
+60.0.0.100/32,null_interface,static
+70.0.0.0/20,null_interface,bgp
+80.0.0.0/20,null_interface,bgp
+192.168.0.0/24,null_interface,bgp
+192.168.1.0/24,GigabitEthernet0/3,ospf
+192.168.2.0/24,GigabitEthernet0/2,ospf
+192.168.2.0/24,GigabitEthernet0/3,ospf
+192.168.3.0/24,null_interface,bgp
+192.168.4.0/24,GigabitEthernet0/3,ospf
+192.168.5.0/24,GigabitEthernet0/2,ospf
+192.168.5.0/24,GigabitEthernet0/3,ospf
+192.168.6.0/24,null_interface,bgp
+192.168.7.0/24,null_interface,bgp
+# Router:er2
+## VRF:default
+0.0.0.0/0,GigabitEthernet0/2,ospfE2
+0.0.0.0/0,GigabitEthernet0/3,ospfE2
+10.0.0.0/30,GigabitEthernet0/2,ospf
+10.0.0.0/30,GigabitEthernet0/3,ospf
+10.0.1.0/30,GigabitEthernet0/2,ospf
+10.0.1.4/30,GigabitEthernet0/2,ConnectedRoute
+10.0.1.8/30,GigabitEthernet0/3,ospf
+10.0.1.12/30,GigabitEthernet0/3,ConnectedRoute
+10.0.2.0/30,GigabitEthernet0/2,ospf
+10.0.2.4/30,GigabitEthernet0/2,ospf
+10.0.2.8/30,GigabitEthernet0/3,ospf
+10.0.2.12/30,GigabitEthernet0/3,ospf
+20.0.0.0/20,null_interface,static
+20.0.0.251/32,GigabitEthernet0/2,ospf
+20.0.0.251/32,GigabitEthernet0/3,ospf
+20.0.0.252/32,Loopback0,ConnectedRoute
+50.0.0.0/20,null_interface,bgp
+50.0.0.16/30,GigabitEthernet0/0,ConnectedRoute
+50.0.0.100/32,null_interface,static
+60.0.0.8/30,GigabitEthernet0/1,ConnectedRoute
+60.0.0.100/32,null_interface,static
+70.0.0.0/20,null_interface,bgp
+80.0.0.0/20,null_interface,bgp
+192.168.0.0/24,null_interface,bgp
+192.168.1.0/24,GigabitEthernet0/3,ospf
+192.168.2.0/24,GigabitEthernet0/2,ospf
+192.168.2.0/24,GigabitEthernet0/3,ospf
+192.168.3.0/24,null_interface,bgp
+192.168.4.0/24,GigabitEthernet0/3,ospf
+192.168.5.0/24,GigabitEthernet0/2,ospf
+192.168.5.0/24,GigabitEthernet0/3,ospf
+192.168.6.0/24,null_interface,bgp
+192.168.7.0/24,null_interface,bgp
+# Router:host1
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.0.0/24,eth0,ConnectedRoute
+# Router:host2
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.1.0/24,eth0,ConnectedRoute
+# Router:host3
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.2.0/24,eth0,ConnectedRoute
+# Router:host4
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.3.0/24,eth0,ConnectedRoute
+# Router:host5
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.4.0/24,eth0,ConnectedRoute
+# Router:host6
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.5.0/24,eth0,ConnectedRoute
+# Router:host7
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.6.0/24,eth0,ConnectedRoute
+# Router:host8
+## VRF:default
+0.0.0.0/0,eth0,static
+192.168.7.0/24,eth0,ConnectedRoute
+# Router:isp1
+## VRF:default
+10.0.0.0/30,null_interface,bgp
+10.0.1.0/30,null_interface,bgp
+10.0.1.4/30,null_interface,bgp
+10.0.1.8/30,null_interface,bgp
+10.0.1.12/30,null_interface,bgp
+10.0.2.0/30,null_interface,bgp
+10.0.2.4/30,null_interface,bgp
+10.0.2.8/30,null_interface,bgp
+10.0.2.12/30,null_interface,bgp
+20.0.0.251/32,null_interface,static
+20.0.0.252/32,null_interface,static
+50.0.0.0/20,null_interface,static
+50.0.0.0/30,GigabitEthernet0/0,ConnectedRoute
+50.0.0.4/30,GigabitEthernet0/1,ConnectedRoute
+50.0.0.8/30,GigabitEthernet0/2,ConnectedRoute
+50.0.0.12/30,GigabitEthernet0/3,ConnectedRoute
+50.0.0.16/30,GigabitEthernet0/4,ConnectedRoute
+50.0.0.100/32,Loopback0,ConnectedRoute
+50.0.1.0/24,Loopback1,ConnectedRoute
+50.0.2.0/24,Loopback1,ConnectedRoute
+50.0.3.0/24,Loopback1,ConnectedRoute
+60.0.0.100/32,null_interface,static
+70.0.0.0/20,null_interface,bgp
+70.0.0.100/32,null_interface,static
+80.0.0.0/20,null_interface,bgp
+80.0.0.100/32,null_interface,static
+192.168.0.0/24,null_interface,bgp
+192.168.1.0/24,null_interface,bgp
+192.168.2.0/24,null_interface,bgp
+192.168.3.0/24,null_interface,bgp
+192.168.4.0/24,null_interface,bgp
+192.168.5.0/24,null_interface,bgp
+192.168.6.0/24,null_interface,bgp
+192.168.7.0/24,null_interface,bgp
+# Router:isp2
+## VRF:default
+10.0.0.0/30,null_interface,bgp
+10.0.1.0/30,null_interface,bgp
+10.0.1.4/30,null_interface,bgp
+10.0.1.8/30,null_interface,bgp
+10.0.1.12/30,null_interface,bgp
+10.0.2.0/30,null_interface,bgp
+10.0.2.4/30,null_interface,bgp
+10.0.2.8/30,null_interface,bgp
+10.0.2.12/30,null_interface,bgp
+20.0.0.251/32,null_interface,static
+20.0.0.252/32,null_interface,static
+50.0.0.0/20,null_interface,bgp
+50.0.0.0/30,GigabitEthernet0/0,ConnectedRoute
+50.0.0.100/32,null_interface,static
+60.0.0.0/20,null_interface,static
+60.0.0.0/30,GigabitEthernet0/1,ConnectedRoute
+60.0.0.4/30,GigabitEthernet0/2,ConnectedRoute
+60.0.0.8/30,GigabitEthernet0/3,ConnectedRoute
+60.0.0.100/32,Loopback0,ConnectedRoute
+60.0.1.0/24,Loopback1,ConnectedRoute
+60.0.2.0/24,Loopback1,ConnectedRoute
+60.0.3.0/24,Loopback1,ConnectedRoute
+70.0.0.0/20,null_interface,bgp
+70.0.0.100/32,null_interface,static
+80.0.0.0/20,null_interface,bgp
+192.168.0.0/24,null_interface,bgp
+192.168.1.0/24,null_interface,bgp
+192.168.2.0/24,null_interface,bgp
+192.168.3.0/24,GigabitEthernet0/4,ConnectedRoute
+192.168.4.0/24,null_interface,bgp
+192.168.5.0/24,null_interface,bgp
+192.168.6.0/24,null_interface,bgp
+192.168.7.0/24,GigabitEthernet0/5,ConnectedRoute
+# Router:isp3
+## VRF:default
+10.0.0.0/30,null_interface,bgp
+10.0.1.0/30,null_interface,bgp
+10.0.1.4/30,null_interface,bgp
+10.0.1.8/30,null_interface,bgp
+10.0.1.12/30,null_interface,bgp
+10.0.2.0/30,null_interface,bgp
+10.0.2.4/30,null_interface,bgp
+10.0.2.8/30,null_interface,bgp
+10.0.2.12/30,null_interface,bgp
+20.0.0.251/32,null_interface,bgp
+20.0.0.252/32,null_interface,bgp
+50.0.0.0/20,null_interface,bgp
+50.0.0.4/30,GigabitEthernet0/0,ConnectedRoute
+50.0.0.100/32,null_interface,static
+60.0.0.0/30,GigabitEthernet0/1,ConnectedRoute
+60.0.0.100/32,null_interface,static
+70.0.0.0/20,null_interface,static
+70.0.0.0/30,GigabitEthernet0/2,ConnectedRoute
+70.0.0.100/32,Loopback0,ConnectedRoute
+80.0.0.0/20,null_interface,bgp
+80.0.0.100/32,null_interface,static
+192.168.0.0/24,null_interface,bgp
+192.168.1.0/24,null_interface,bgp
+192.168.2.0/24,null_interface,bgp
+192.168.3.0/24,null_interface,bgp
+192.168.4.0/24,null_interface,bgp
+192.168.5.0/24,null_interface,bgp
+192.168.6.0/24,null_interface,bgp
+192.168.7.0/24,null_interface,bgp
+# Router:isp4
+## VRF:default
+10.0.0.0/30,null_interface,bgp
+10.0.1.0/30,null_interface,bgp
+10.0.1.4/30,null_interface,bgp
+10.0.1.8/30,null_interface,bgp
+10.0.1.12/30,null_interface,bgp
+10.0.2.0/30,null_interface,bgp
+10.0.2.4/30,null_interface,bgp
+10.0.2.8/30,null_interface,bgp
+10.0.2.12/30,null_interface,bgp
+20.0.0.251/32,null_interface,bgp
+20.0.0.252/32,null_interface,bgp
+50.0.0.0/20,null_interface,bgp
+50.0.0.8/30,GigabitEthernet0/1,ConnectedRoute
+50.0.0.100/32,null_interface,static
+70.0.0.0/20,null_interface,bgp
+70.0.0.0/30,GigabitEthernet0/0,ConnectedRoute
+70.0.0.100/32,null_interface,static
+80.0.0.0/20,null_interface,static
+80.0.0.100/32,Loopback0,ConnectedRoute
+80.0.1.0/24,Loopback1,ConnectedRoute
+80.0.2.0/24,Loopback1,ConnectedRoute
+80.0.3.0/24,Loopback1,ConnectedRoute
+192.168.0.0/24,GigabitEthernet0/2,ConnectedRoute
+192.168.1.0/24,null_interface,bgp
+192.168.2.0/24,null_interface,bgp
+192.168.3.0/24,null_interface,bgp
+192.168.4.0/24,null_interface,bgp
+192.168.5.0/24,null_interface,bgp
+192.168.6.0/24,GigabitEthernet0/3,ConnectedRoute
+192.168.7.0/24,null_interface,bgp
+# Router:r1
+## VRF:default
+0.0.0.0/0,GigabitEthernet0/1,ospfE2
+10.0.0.0/30,GigabitEthernet0/1,ospf
+10.0.1.0/30,GigabitEthernet0/1,ospf
+10.0.1.4/30,GigabitEthernet0/1,ospf
+10.0.1.8/30,GigabitEthernet0/1,ospf
+10.0.1.12/30,GigabitEthernet0/1,ospf
+10.0.2.0/30,GigabitEthernet0/0,ConnectedRoute
+10.0.2.4/30,GigabitEthernet0/1,ospf
+10.0.2.8/30,GigabitEthernet0/1,ConnectedRoute
+10.0.2.12/30,GigabitEthernet0/1,ospf
+20.0.0.0/22,null_interface,static
+20.0.0.251/32,GigabitEthernet0/1,ospf
+20.0.0.252/32,GigabitEthernet0/1,ospf
+192.168.1.0/24,GigabitEthernet0/2,ConnectedRoute
+192.168.2.0/24,GigabitEthernet0/1,ospf
+192.168.4.0/24,GigabitEthernet0/3,ConnectedRoute
+192.168.5.0/24,GigabitEthernet0/1,ospf
+# Router:r2
+## VRF:default
+0.0.0.0/0,GigabitEthernet0/0,ospfE2
+0.0.0.0/0,GigabitEthernet0/1,ospfE2
+10.0.0.0/30,GigabitEthernet0/0,ospf
+10.0.0.0/30,GigabitEthernet0/1,ospf
+10.0.1.0/30,GigabitEthernet0/0,ospf
+10.0.1.4/30,GigabitEthernet0/0,ospf
+10.0.1.8/30,GigabitEthernet0/1,ospf
+10.0.1.12/30,GigabitEthernet0/1,ospf
+10.0.2.0/30,GigabitEthernet0/0,ospf
+10.0.2.4/30,GigabitEthernet0/0,ConnectedRoute
+10.0.2.8/30,GigabitEthernet0/1,ospf
+10.0.2.12/30,GigabitEthernet0/1,ConnectedRoute
+20.0.0.251/32,GigabitEthernet0/0,ospf
+20.0.0.251/32,GigabitEthernet0/1,ospf
+20.0.0.252/32,GigabitEthernet0/0,ospf
+20.0.0.252/32,GigabitEthernet0/1,ospf
+20.0.4.0/22,null_interface,static
+192.168.1.0/24,GigabitEthernet0/1,ospf
+192.168.2.0/24,GigabitEthernet0/2,ConnectedRoute
+192.168.4.0/24,GigabitEthernet0/1,ospf
+192.168.5.0/24,GigabitEthernet0/3,ConnectedRoute

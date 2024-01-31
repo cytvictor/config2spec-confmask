@@ -32,6 +32,7 @@ class MinesweeperBackend(object):
                 url='{base_url}/{attribute}'.format(base_url=self.base_url, attribute=attribute),
                 data=data)
             response_content = response.content.decode('utf-8')
+            print(response_content)
         except requests.exceptions.RequestException as e:
             # ConnectionError, Timeout, TooManyRedirects
             self.logger.error("Failed to connect to the Minesweeper Backend: {error}".format(error=e))

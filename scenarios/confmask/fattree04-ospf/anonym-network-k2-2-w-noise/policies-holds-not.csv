@@ -1,0 +1,22 @@
+type,subnet,specifics,source,Status,Environments,Destinations,Sources
+PolicyType.Isolation,91.6.0.0/30,0,c3,PolicyStatus.HOLDSNOT,{9},{e2-0:FastEthernet99/0 (91.6.0.0/30)},c3
+PolicyType.Isolation,91.6.0.0/30,0,e0-0,PolicyStatus.HOLDSNOT,{9},{e2-0:FastEthernet99/0 (91.6.0.0/30)},e0-0
+PolicyType.Isolation,91.5.0.0/30,0,c3,PolicyStatus.HOLDSNOT,{9},{e0-1:FastEthernet99/0 (91.5.0.0/30)},c3
+PolicyType.Isolation,91.4.0.0/30,0,c2,PolicyStatus.HOLDSNOT,{9},{e3-1:FastEthernet99/0 (91.4.0.0/30)},c2
+PolicyType.Isolation,91.1.0.0/30,0,c3,PolicyStatus.HOLDS,{9},{e0-0:FastEthernet99/0 (91.1.0.0/30)},c3
+PolicyType.Isolation,32.240.99.0/24,0,e0-1,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet50/0 (32.240.99.0/24)},e0-1
+PolicyType.Isolation,32.240.99.0/24,0,agg0-1,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet50/0 (32.240.99.0/24)},agg0-1
+PolicyType.Isolation,32.240.99.0/24,0,c2,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet50/0 (32.240.99.0/24)},c2
+PolicyType.Isolation,32.212.181.0/24,0,c3,PolicyStatus.HOLDS,{9},{e3-0:GigabitEthernet50/0 (32.212.181.0/24)},c3
+PolicyType.Isolation,32.171.99.0/24,0,agg2-1,PolicyStatus.HOLDS,{9},{e1-0:GigabitEthernet50/0 (32.171.99.0/24)},agg2-1
+PolicyType.Isolation,32.171.99.0/24,0,e2-0,PolicyStatus.HOLDS,{9},{e1-0:GigabitEthernet50/0 (32.171.99.0/24)},e2-0
+PolicyType.Isolation,32.153.183.0/24,0,c3,PolicyStatus.HOLDS,{9},{e3-1:GigabitEthernet50/0 (32.153.183.0/24)},c3
+PolicyType.Isolation,32.36.153.0/24,0,c2,PolicyStatus.HOLDS,{9},{e0-0:GigabitEthernet50/0 (32.36.153.0/24)},c2
+PolicyType.Isolation,30.3.0.4/30,0,c0,PolicyStatus.HOLDS,{9},{e3-0:GigabitEthernet0/4 (30.3.0.4/30)},c0
+PolicyType.Isolation,30.2.0.4/30,0,e2-1,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet0/4 (30.2.0.4/30)},e2-1
+PolicyType.Isolation,30.2.0.4/30,0,c2,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet0/4 (30.2.0.4/30)},c2
+PolicyType.Isolation,30.2.0.0/30,0,e1-1,PolicyStatus.HOLDS,{9},{e2-0:GigabitEthernet0/3 (30.2.0.0/30)},e1-1
+PolicyType.Isolation,30.1.0.4/30,0,e2-1,PolicyStatus.HOLDS,{9},{e1-0:GigabitEthernet0/4 (30.1.0.4/30)},e2-1
+PolicyType.Isolation,30.1.0.4/30,0,agg2-1,PolicyStatus.HOLDS,{9},{e1-0:GigabitEthernet0/4 (30.1.0.4/30)},agg2-1
+PolicyType.Isolation,30.0.1.4/30,0,c1,PolicyStatus.HOLDS,{9},{e0-1:GigabitEthernet0/4 (30.0.1.4/30)},c1
+PolicyType.Isolation,30.0.1.0/30,0,c0,PolicyStatus.HOLDS,{9},{e0-1:GigabitEthernet0/3 (30.0.1.0/30)},c0

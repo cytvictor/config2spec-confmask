@@ -1,0 +1,2 @@
+type,subnet,specifics,source,Status,Environments,Destinations,Sources
+PolicyType.Reachability,32.249.160.0/24,0,agg0-0,PolicyStatus.HOLDS,{9},{e1-1:GigabitEthernet50/0 (32.249.160.0/24)},agg0-0
