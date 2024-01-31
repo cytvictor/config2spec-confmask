@@ -1,0 +1,1576 @@
+anonym-network-k6-w-noise
+ - Proc anonym-network-k6-w-noise(0): 0/55
+ - Proc anonym-network-k6-w-noise(1): 0/50
+ - Proc anonym-network-k6-w-noise(2): 0/46
+ - Proc anonym-network-k6-w-noise(3): 0/43
+ - Proc anonym-network-k6-w-noise(4): 0/40
+ - Proc anonym-network-k6-w-noise(5): 0/37
+ - Proc anonym-network-k6-w-noise(6): 0/35
+ - Proc anonym-network-k6-w-noise(7): 0/33
+ - Proc anonym-network-k6-w-noise(8): 0/31
+ - Proc anonym-network-k6-w-noise(9): 0/29
+ - Proc anonym-network-k6-w-noise(10): 0/28
+ - Proc anonym-network-k6-w-noise(11): 0/3
+ - Proc anonym-network-k6-w-noise(0): 1/55
+ - Proc anonym-network-k6-w-noise(7): 1/33
+ - Proc anonym-network-k6-w-noise(9): 1/29
+ - Proc anonym-network-k6-w-noise(10): 1/28
+ - Proc anonym-network-k6-w-noise(8): 1/31
+ - Proc anonym-network-k6-w-noise(11): 1/3
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r5
+ - Proc anonym-network-k6-w-noise(4): 1/40
+NotHolds PolicyType.Isolation,32.163.62.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.163.62.0/24)},r2
+ - Proc anonym-network-k6-w-noise(3): 1/43
+ - Proc anonym-network-k6-w-noise(5): 1/37
+NotHolds PolicyType.Isolation,2.128.4.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet2/0 (2.128.4.0/24)},r9
+ - Proc anonym-network-k6-w-noise(6): 1/35
+ - Proc anonym-network-k6-w-noise(2): 1/46
+NotHolds PolicyType.Isolation,32.228.158.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.228.158.0/24)},r1
+ - Proc anonym-network-k6-w-noise(1): 1/50
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r3
+ - Proc anonym-network-k6-w-noise(0): 2/55
+ - Proc anonym-network-k6-w-noise(7): 2/33
+ - Proc anonym-network-k6-w-noise(9): 2/29
+ - Proc anonym-network-k6-w-noise(10): 2/28
+ - Proc anonym-network-k6-w-noise(8): 2/31
+ - Proc anonym-network-k6-w-noise(11): 2/3
+ - Proc anonym-network-k6-w-noise(5): 2/37
+NotHolds PolicyType.Isolation,32.163.62.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.163.62.0/24)},r7
+ - Proc anonym-network-k6-w-noise(3): 2/43
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r8
+ - Proc anonym-network-k6-w-noise(4): 2/40
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r1
+ - Proc anonym-network-k6-w-noise(0): 3/55
+ - Proc anonym-network-k6-w-noise(9): 3/29
+ - Proc anonym-network-k6-w-noise(2): 2/46
+NotHolds PolicyType.Isolation,32.228.158.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.228.158.0/24)},r11
+ - Proc anonym-network-k6-w-noise(1): 2/50
+ - Proc anonym-network-k6-w-noise(10): 3/28
+ - Proc anonym-network-k6-w-noise(7): 3/33
+NotHolds PolicyType.Isolation,2.128.4.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet2/0 (2.128.4.0/24)},r6
+ - Proc anonym-network-k6-w-noise(6): 2/35
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r9
+ - Proc anonym-network-k6-w-noise(4): 3/40
+ - Proc anonym-network-k6-w-noise(8): 3/31
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r11
+ - Proc anonym-network-k6-w-noise(0): 4/55
+ - Proc anonym-network-k6-w-noise(9): 4/29
+NotHolds PolicyType.Isolation,2.128.4.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet2/0 (2.128.4.0/24)},r4
+ - Proc anonym-network-k6-w-noise(6): 3/35
+ - Proc anonym-network-k6-w-noise(5): 3/37
+ - Proc anonym-network-k6-w-noise(3): 3/43
+NotHolds PolicyType.Isolation,32.228.158.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.228.158.0/24)},r10
+ - Proc anonym-network-k6-w-noise(1): 3/50
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r5
+ - Proc anonym-network-k6-w-noise(2): 3/46
+ - Proc anonym-network-k6-w-noise(10): 4/28
+ - Proc anonym-network-k6-w-noise(7): 4/33
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r6
+ - Proc anonym-network-k6-w-noise(4): 4/40
+ - Proc anonym-network-k6-w-noise(8): 4/31
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r8
+ - Proc anonym-network-k6-w-noise(2): 4/46
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r10
+ - Proc anonym-network-k6-w-noise(0): 5/55
+NotHolds PolicyType.Isolation,32.228.158.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.228.158.0/24)},r2
+ - Proc anonym-network-k6-w-noise(1): 4/50
+ - Proc anonym-network-k6-w-noise(9): 5/29
+NotHolds PolicyType.Isolation,2.128.4.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet2/0 (2.128.4.0/24)},r7
+ - Proc anonym-network-k6-w-noise(6): 4/35
+ - Proc anonym-network-k6-w-noise(10): 5/28
+ - Proc anonym-network-k6-w-noise(5): 4/37
+ - Proc anonym-network-k6-w-noise(7): 5/33
+ - Proc anonym-network-k6-w-noise(3): 4/43
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r4
+ - Proc anonym-network-k6-w-noise(4): 5/40
+ - Proc anonym-network-k6-w-noise(8): 5/31
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r9
+ - Proc anonym-network-k6-w-noise(2): 5/46
+ - Proc anonym-network-k6-w-noise(1): 5/50
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r8
+ - Proc anonym-network-k6-w-noise(0): 6/55
+ - Proc anonym-network-k6-w-noise(9): 6/29
+ - Proc anonym-network-k6-w-noise(6): 5/35
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r5
+ - Proc anonym-network-k6-w-noise(5): 5/37
+ - Proc anonym-network-k6-w-noise(10): 6/28
+ - Proc anonym-network-k6-w-noise(7): 6/33
+NotHolds PolicyType.Isolation,32.83.251.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.83.251.0/24)},r7
+ - Proc anonym-network-k6-w-noise(4): 6/40
+ - Proc anonym-network-k6-w-noise(3): 5/43
+ - Proc anonym-network-k6-w-noise(8): 6/31
+ - Proc anonym-network-k6-w-noise(9): 7/29
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r6
+ - Proc anonym-network-k6-w-noise(2): 6/46
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r8
+ - Proc anonym-network-k6-w-noise(5): 6/37
+ - Proc anonym-network-k6-w-noise(10): 7/28
+ - Proc anonym-network-k6-w-noise(6): 6/35
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r9
+ - Proc anonym-network-k6-w-noise(0): 7/55
+ - Proc anonym-network-k6-w-noise(1): 6/50
+ - Proc anonym-network-k6-w-noise(7): 7/33
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r5
+ - Proc anonym-network-k6-w-noise(4): 7/40
+ - Proc anonym-network-k6-w-noise(3): 6/43
+ - Proc anonym-network-k6-w-noise(8): 7/31
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r6
+ - Proc anonym-network-k6-w-noise(0): 8/55
+ - Proc anonym-network-k6-w-noise(9): 8/29
+ - Proc anonym-network-k6-w-noise(7): 8/33
+ - Proc anonym-network-k6-w-noise(6): 7/35
+ - Proc anonym-network-k6-w-noise(10): 8/28
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r9
+ - Proc anonym-network-k6-w-noise(5): 7/37
+ - Proc anonym-network-k6-w-noise(1): 7/50
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r4
+ - Proc anonym-network-k6-w-noise(2): 7/46
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r5
+ - Proc anonym-network-k6-w-noise(3): 7/43
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r3
+ - Proc anonym-network-k6-w-noise(4): 8/40
+ - Proc anonym-network-k6-w-noise(9): 9/29
+ - Proc anonym-network-k6-w-noise(7): 9/33
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r2
+ - Proc anonym-network-k6-w-noise(0): 9/55
+ - Proc anonym-network-k6-w-noise(10): 9/28
+ - Proc anonym-network-k6-w-noise(6): 8/35
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r6
+ - Proc anonym-network-k6-w-noise(5): 8/37
+ - Proc anonym-network-k6-w-noise(8): 8/31
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r8
+ - Proc anonym-network-k6-w-noise(3): 8/43
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r1
+ - Proc anonym-network-k6-w-noise(4): 9/40
+NotHolds PolicyType.Isolation,32.208.126.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.208.126.0/24)},r7
+ - Proc anonym-network-k6-w-noise(2): 8/46
+ - Proc anonym-network-k6-w-noise(1): 8/50
+NotHolds PolicyType.Isolation,32.254.166.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.254.166.0/24)},r7
+ - Proc anonym-network-k6-w-noise(0): 10/55
+ - Proc anonym-network-k6-w-noise(6): 9/35
+ - Proc anonym-network-k6-w-noise(9): 10/29
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r11
+ - Proc anonym-network-k6-w-noise(4): 10/40
+ - Proc anonym-network-k6-w-noise(7): 10/33
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r4
+ - Proc anonym-network-k6-w-noise(5): 9/37
+ - Proc anonym-network-k6-w-noise(10): 10/28
+ - Proc anonym-network-k6-w-noise(8): 9/31
+ - Proc anonym-network-k6-w-noise(1): 9/50
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r5
+ - Proc anonym-network-k6-w-noise(0): 11/55
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r5
+ - Proc anonym-network-k6-w-noise(2): 9/46
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r9
+ - Proc anonym-network-k6-w-noise(3): 9/43
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r3
+ - Proc anonym-network-k6-w-noise(6): 10/35
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r7
+ - Proc anonym-network-k6-w-noise(5): 10/37
+NotHolds PolicyType.Isolation,32.226.15.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.226.15.0/24)},r3
+ - Proc anonym-network-k6-w-noise(1): 10/50
+ - Proc anonym-network-k6-w-noise(9): 11/29
+ - Proc anonym-network-k6-w-noise(7): 11/33
+ - Proc anonym-network-k6-w-noise(8): 10/31
+ - Proc anonym-network-k6-w-noise(10): 11/28
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r10
+ - Proc anonym-network-k6-w-noise(4): 11/40
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r3
+ - Proc anonym-network-k6-w-noise(0): 12/55
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r6
+ - Proc anonym-network-k6-w-noise(3): 10/43
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r3
+ - Proc anonym-network-k6-w-noise(2): 10/46
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r1
+ - Proc anonym-network-k6-w-noise(6): 11/35
+ - Proc anonym-network-k6-w-noise(7): 12/33
+ - Proc anonym-network-k6-w-noise(5): 11/37
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r4
+ - Proc anonym-network-k6-w-noise(3): 11/43
+ - Proc anonym-network-k6-w-noise(10): 12/28
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r8
+ - Proc anonym-network-k6-w-noise(4): 12/40
+NotHolds PolicyType.Isolation,32.226.15.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.226.15.0/24)},r1
+ - Proc anonym-network-k6-w-noise(1): 11/50
+ - Proc anonym-network-k6-w-noise(8): 11/31
+ - Proc anonym-network-k6-w-noise(9): 12/29
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r1
+ - Proc anonym-network-k6-w-noise(2): 11/46
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r1
+ - Proc anonym-network-k6-w-noise(0): 13/55
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r11
+ - Proc anonym-network-k6-w-noise(6): 12/35
+ - Proc anonym-network-k6-w-noise(7): 13/33
+NotHolds PolicyType.Isolation,32.226.15.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.226.15.0/24)},r11
+ - Proc anonym-network-k6-w-noise(1): 12/50
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r11
+ - Proc anonym-network-k6-w-noise(0): 14/55
+ - Proc anonym-network-k6-w-noise(5): 12/37
+NotHolds PolicyType.Isolation,32.161.94.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.161.94.0/24)},r7
+ - Proc anonym-network-k6-w-noise(3): 12/43
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r9
+ - Proc anonym-network-k6-w-noise(4): 13/40
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r10
+ - Proc anonym-network-k6-w-noise(6): 13/35
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r11
+ - Proc anonym-network-k6-w-noise(2): 12/46
+ - Proc anonym-network-k6-w-noise(9): 13/29
+ - Proc anonym-network-k6-w-noise(10): 13/28
+ - Proc anonym-network-k6-w-noise(8): 12/31
+NotHolds PolicyType.Isolation,32.226.15.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.226.15.0/24)},r10
+ - Proc anonym-network-k6-w-noise(1): 13/50
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r6
+ - Proc anonym-network-k6-w-noise(4): 14/40
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r10
+ - Proc anonym-network-k6-w-noise(0): 15/55
+ - Proc anonym-network-k6-w-noise(7): 14/33
+ - Proc anonym-network-k6-w-noise(3): 13/43
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r5
+ - Proc anonym-network-k6-w-noise(5): 13/37
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r2
+ - Proc anonym-network-k6-w-noise(6): 14/35
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r10
+ - Proc anonym-network-k6-w-noise(2): 13/46
+ - Proc anonym-network-k6-w-noise(9): 14/29
+ - Proc anonym-network-k6-w-noise(8): 13/31
+ - Proc anonym-network-k6-w-noise(10): 14/28
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r10
+ - Proc anonym-network-k6-w-noise(5): 14/37
+ - Proc anonym-network-k6-w-noise(3): 14/43
+NotHolds PolicyType.Isolation,32.226.15.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.226.15.0/24)},r2
+ - Proc anonym-network-k6-w-noise(1): 14/50
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r4
+ - Proc anonym-network-k6-w-noise(4): 15/40
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r8
+ - Proc anonym-network-k6-w-noise(0): 16/55
+ - Proc anonym-network-k6-w-noise(6): 15/35
+ - Proc anonym-network-k6-w-noise(8): 14/31
+ - Proc anonym-network-k6-w-noise(7): 15/33
+ - Proc anonym-network-k6-w-noise(10): 15/28
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r8
+ - Proc anonym-network-k6-w-noise(2): 14/46
+ - Proc anonym-network-k6-w-noise(9): 15/29
+NotHolds PolicyType.Isolation,32.71.164.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.71.164.0/24)},r7
+ - Proc anonym-network-k6-w-noise(4): 16/40
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r9
+ - Proc anonym-network-k6-w-noise(0): 17/55
+ - Proc anonym-network-k6-w-noise(3): 15/43
+ - Proc anonym-network-k6-w-noise(1): 15/50
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r11
+ - Proc anonym-network-k6-w-noise(5): 15/37
+ - Proc anonym-network-k6-w-noise(6): 16/35
+ - Proc anonym-network-k6-w-noise(8): 15/31
+ - Proc anonym-network-k6-w-noise(10): 16/28
+ - Proc anonym-network-k6-w-noise(7): 16/33
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r9
+ - Proc anonym-network-k6-w-noise(2): 15/46
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r8
+ - Proc anonym-network-k6-w-noise(5): 16/37
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r6
+ - Proc anonym-network-k6-w-noise(0): 18/55
+ - Proc anonym-network-k6-w-noise(3): 16/43
+ - Proc anonym-network-k6-w-noise(9): 16/29
+ - Proc anonym-network-k6-w-noise(4): 17/40
+ - Proc anonym-network-k6-w-noise(1): 16/50
+ - Proc anonym-network-k6-w-noise(6): 17/35
+ - Proc anonym-network-k6-w-noise(8): 16/31
+ - Proc anonym-network-k6-w-noise(10): 17/28
+ - Proc anonym-network-k6-w-noise(7): 17/33
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r2
+ - Proc anonym-network-k6-w-noise(0): 19/55
+ - Proc anonym-network-k6-w-noise(3): 17/43
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r9
+ - Proc anonym-network-k6-w-noise(5): 17/37
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r6
+ - Proc anonym-network-k6-w-noise(2): 16/46
+ - Proc anonym-network-k6-w-noise(9): 17/29
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r3
+ - Proc anonym-network-k6-w-noise(4): 18/40
+ - Proc anonym-network-k6-w-noise(1): 17/50
+ - Proc anonym-network-k6-w-noise(6): 18/35
+ - Proc anonym-network-k6-w-noise(8): 17/31
+ - Proc anonym-network-k6-w-noise(10): 18/28
+ - Proc anonym-network-k6-w-noise(7): 18/33
+NotHolds PolicyType.Isolation,32.253.83.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.253.83.0/24)},r7
+ - Proc anonym-network-k6-w-noise(0): 20/55
+NotHolds PolicyType.Isolation,32.125.41.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.125.41.0/24)},r3
+ - Proc anonym-network-k6-w-noise(3): 18/43
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r6
+ - Proc anonym-network-k6-w-noise(5): 18/37
+ - Proc anonym-network-k6-w-noise(9): 18/29
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r2
+ - Proc anonym-network-k6-w-noise(2): 17/46
+ - Proc anonym-network-k6-w-noise(8): 18/31
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r5
+ - Proc anonym-network-k6-w-noise(6): 19/35
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r1
+ - Proc anonym-network-k6-w-noise(4): 19/40
+ - Proc anonym-network-k6-w-noise(1): 18/50
+ - Proc anonym-network-k6-w-noise(10): 19/28
+ - Proc anonym-network-k6-w-noise(0): 21/55
+ - Proc anonym-network-k6-w-noise(7): 19/33
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r4
+ - Proc anonym-network-k6-w-noise(5): 19/37
+ - Proc anonym-network-k6-w-noise(9): 19/29
+NotHolds PolicyType.Isolation,32.199.220.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.199.220.0/24)},r7
+ - Proc anonym-network-k6-w-noise(2): 18/46
+NotHolds PolicyType.Isolation,32.125.41.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.125.41.0/24)},r1
+ - Proc anonym-network-k6-w-noise(3): 19/43
+ - Proc anonym-network-k6-w-noise(8): 19/31
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r8
+ - Proc anonym-network-k6-w-noise(6): 20/35
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r11
+ - Proc anonym-network-k6-w-noise(4): 20/40
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r5
+ - Proc anonym-network-k6-w-noise(1): 19/50
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r7
+ - Proc anonym-network-k6-w-noise(5): 20/37
+ - Proc anonym-network-k6-w-noise(9): 20/29
+NotHolds PolicyType.Isolation,32.125.41.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.125.41.0/24)},r11
+ - Proc anonym-network-k6-w-noise(3): 20/43
+ - Proc anonym-network-k6-w-noise(7): 20/33
+ - Proc anonym-network-k6-w-noise(10): 20/28
+ - Proc anonym-network-k6-w-noise(0): 22/55
+ - Proc anonym-network-k6-w-noise(8): 20/31
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r5
+ - Proc anonym-network-k6-w-noise(2): 19/46
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r9
+ - Proc anonym-network-k6-w-noise(6): 21/35
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r10
+ - Proc anonym-network-k6-w-noise(4): 21/40
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r8
+ - Proc anonym-network-k6-w-noise(1): 20/50
+ - Proc anonym-network-k6-w-noise(5): 21/37
+NotHolds PolicyType.Isolation,32.125.41.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.125.41.0/24)},r10
+ - Proc anonym-network-k6-w-noise(3): 21/43
+ - Proc anonym-network-k6-w-noise(7): 21/33
+ - Proc anonym-network-k6-w-noise(9): 21/29
+ - Proc anonym-network-k6-w-noise(8): 21/31
+ - Proc anonym-network-k6-w-noise(0): 23/55
+ - Proc anonym-network-k6-w-noise(10): 21/28
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r3
+ - Proc anonym-network-k6-w-noise(2): 20/46
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r6
+ - Proc anonym-network-k6-w-noise(6): 22/35
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r8
+ - Proc anonym-network-k6-w-noise(4): 22/40
+ - Proc anonym-network-k6-w-noise(5): 22/37
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r9
+ - Proc anonym-network-k6-w-noise(1): 21/50
+NotHolds PolicyType.Isolation,32.125.41.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.125.41.0/24)},r2
+ - Proc anonym-network-k6-w-noise(3): 22/43
+ - Proc anonym-network-k6-w-noise(0): 24/55
+ - Proc anonym-network-k6-w-noise(8): 22/31
+ - Proc anonym-network-k6-w-noise(9): 22/29
+ - Proc anonym-network-k6-w-noise(10): 22/28
+ - Proc anonym-network-k6-w-noise(7): 22/33
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r1
+ - Proc anonym-network-k6-w-noise(2): 21/46
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r4
+ - Proc anonym-network-k6-w-noise(6): 23/35
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r9
+ - Proc anonym-network-k6-w-noise(4): 23/40
+ - Proc anonym-network-k6-w-noise(5): 23/37
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r6
+ - Proc anonym-network-k6-w-noise(1): 22/50
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r5
+ - Proc anonym-network-k6-w-noise(3): 23/43
+ - Proc anonym-network-k6-w-noise(8): 23/31
+ - Proc anonym-network-k6-w-noise(0): 25/55
+ - Proc anonym-network-k6-w-noise(7): 23/33
+NotHolds PolicyType.Isolation,32.246.88.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r3
+ - Proc anonym-network-k6-w-noise(0): 26/55
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r4
+ - Proc anonym-network-k6-w-noise(1): 23/50
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r3
+ - Proc anonym-network-k6-w-noise(3): 24/43
+ - Proc anonym-network-k6-w-noise(9): 23/29
+ - Proc anonym-network-k6-w-noise(10): 23/28
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r7
+ - Proc anonym-network-k6-w-noise(6): 24/35
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r11
+ - Proc anonym-network-k6-w-noise(2): 22/46
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r6
+ - Proc anonym-network-k6-w-noise(4): 24/40
+ - Proc anonym-network-k6-w-noise(8): 24/31
+ - Proc anonym-network-k6-w-noise(5): 24/37
+ - Proc anonym-network-k6-w-noise(7): 24/33
+NotHolds PolicyType.Isolation,32.246.88.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r1
+ - Proc anonym-network-k6-w-noise(0): 27/55
+ - Proc anonym-network-k6-w-noise(10): 24/28
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r1
+ - Proc anonym-network-k6-w-noise(3): 25/43
+NotHolds PolicyType.Isolation,32.217.75.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.217.75.0/24)},r7
+ - Proc anonym-network-k6-w-noise(1): 24/50
+ - Proc anonym-network-k6-w-noise(9): 24/29
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r5
+ - Proc anonym-network-k6-w-noise(5): 25/37
+ - Proc anonym-network-k6-w-noise(8): 25/31
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r10
+ - Proc anonym-network-k6-w-noise(2): 23/46
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r2
+ - Proc anonym-network-k6-w-noise(4): 25/40
+ - Proc anonym-network-k6-w-noise(6): 25/35
+ - Proc anonym-network-k6-w-noise(7): 25/33
+NotHolds PolicyType.Isolation,32.246.88.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r11
+ - Proc anonym-network-k6-w-noise(0): 28/55
+ - Proc anonym-network-k6-w-noise(10): 25/28
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r11
+ - Proc anonym-network-k6-w-noise(3): 26/43
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r3
+ - Proc anonym-network-k6-w-noise(1): 25/50
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r8
+ - Proc anonym-network-k6-w-noise(2): 24/46
+ - Proc anonym-network-k6-w-noise(9): 25/29
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r10
+ - Proc anonym-network-k6-w-noise(3): 27/43
+NotHolds PolicyType.Isolation,32.246.88.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r10
+ - Proc anonym-network-k6-w-noise(0): 29/55
+NotHolds PolicyType.Isolation,32.52.181.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.52.181.0/24)},r7
+ - Proc anonym-network-k6-w-noise(4): 26/40
+ - Proc anonym-network-k6-w-noise(8): 26/31
+ - Proc anonym-network-k6-w-noise(6): 26/35
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r8
+ - Proc anonym-network-k6-w-noise(5): 26/37
+ - Proc anonym-network-k6-w-noise(7): 26/33
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r9
+ - Proc anonym-network-k6-w-noise(2): 25/46
+ - Proc anonym-network-k6-w-noise(9): 26/29
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r5
+ - Proc anonym-network-k6-w-noise(1): 26/50
+ - Proc anonym-network-k6-w-noise(10): 26/28
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r8
+ - Proc anonym-network-k6-w-noise(3): 28/43
+NotHolds PolicyType.Isolation,32.246.88.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r2
+ - Proc anonym-network-k6-w-noise(0): 30/55
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r3
+ - Proc anonym-network-k6-w-noise(4): 27/40
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r6
+ - Proc anonym-network-k6-w-noise(2): 26/46
+ - Proc anonym-network-k6-w-noise(7): 27/33
+ - Proc anonym-network-k6-w-noise(8): 27/31
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r9
+ - Proc anonym-network-k6-w-noise(5): 27/37
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r5
+ - Proc anonym-network-k6-w-noise(6): 27/35
+ - Proc anonym-network-k6-w-noise(9): 27/29
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r11
+ - Proc anonym-network-k6-w-noise(1): 27/50
+ - Proc anonym-network-k6-w-noise(10): 27/28
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r9
+ - Proc anonym-network-k6-w-noise(3): 29/43
+ - Proc anonym-network-k6-w-noise(0): 31/55
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r4
+ - Proc anonym-network-k6-w-noise(2): 27/46
+ - Proc anonym-network-k6-w-noise(7): 28/33
+ - Proc anonym-network-k6-w-noise(8): 28/31
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r5
+ - Proc anonym-network-k6-w-noise(4): 28/40
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r10
+ - Proc anonym-network-k6-w-noise(1): 28/50
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r6
+ - Proc anonym-network-k6-w-noise(5): 28/37
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r10
+ - Proc anonym-network-k6-w-noise(6): 28/35
+ - Proc anonym-network-k6-w-noise(9): 28/29
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r6
+ - Proc anonym-network-k6-w-noise(3): 30/43
+ - Proc anonym-network-k6-w-noise(0): 32/55
+ - Proc anonym-network-k6-w-noise(7): 29/33
+NotHolds PolicyType.Isolation,32.194.115.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.194.115.0/24)},r7
+ - Proc anonym-network-k6-w-noise(2): 28/46
+ - Proc anonym-network-k6-w-noise(8): 29/31
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r8
+ - Proc anonym-network-k6-w-noise(1): 29/50
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r11
+ - Proc anonym-network-k6-w-noise(6): 29/35
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r4
+ - Proc anonym-network-k6-w-noise(5): 29/37
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r4
+ - Proc anonym-network-k6-w-noise(3): 31/43
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r11
+ - Proc anonym-network-k6-w-noise(4): 29/40
+ - Proc anonym-network-k6-w-noise(0): 33/55
+ - Proc anonym-network-k6-w-noise(2): 29/46
+ - Proc anonym-network-k6-w-noise(8): 30/31
+ - Proc anonym-network-k6-w-noise(7): 30/33
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r9
+ - Proc anonym-network-k6-w-noise(1): 30/50
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r10
+ - Proc anonym-network-k6-w-noise(4): 30/40
+ - Proc anonym-network-k6-w-noise(0): 34/55
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r7
+ - Proc anonym-network-k6-w-noise(5): 30/37
+NotHolds PolicyType.Isolation,32.104.24.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.104.24.0/24)},r7
+ - Proc anonym-network-k6-w-noise(3): 32/43
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r8
+ - Proc anonym-network-k6-w-noise(6): 30/35
+ - Proc anonym-network-k6-w-noise(2): 30/46
+ - Proc anonym-network-k6-w-noise(7): 31/33
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r6
+ - Proc anonym-network-k6-w-noise(1): 31/50
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r8
+ - Proc anonym-network-k6-w-noise(4): 31/40
+ - Proc anonym-network-k6-w-noise(0): 35/55
+ - Proc anonym-network-k6-w-noise(2): 31/46
+ - Proc anonym-network-k6-w-noise(7): 32/33
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r3
+ - Proc anonym-network-k6-w-noise(3): 33/43
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r9
+ - Proc anonym-network-k6-w-noise(6): 31/35
+ - Proc anonym-network-k6-w-noise(5): 31/37
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r9
+ - Proc anonym-network-k6-w-noise(4): 32/40
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r2
+ - Proc anonym-network-k6-w-noise(1): 32/50
+ - Proc anonym-network-k6-w-noise(5): 32/37
+NotHolds PolicyType.Isolation,32.243.213.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.243.213.0/24)},r3
+ - Proc anonym-network-k6-w-noise(0): 36/55
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r5
+ - Proc anonym-network-k6-w-noise(3): 34/43
+ - Proc anonym-network-k6-w-noise(2): 32/46
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r6
+ - Proc anonym-network-k6-w-noise(6): 32/35
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r6
+ - Proc anonym-network-k6-w-noise(4): 33/40
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r4
+ - Proc anonym-network-k6-w-noise(1): 33/50
+ - Proc anonym-network-k6-w-noise(5): 33/37
+NotHolds PolicyType.Isolation,32.243.213.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.243.213.0/24)},r1
+ - Proc anonym-network-k6-w-noise(0): 37/55
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r4
+ - Proc anonym-network-k6-w-noise(6): 33/35
+ - Proc anonym-network-k6-w-noise(2): 33/46
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r2
+ - Proc anonym-network-k6-w-noise(4): 34/40
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r11
+ - Proc anonym-network-k6-w-noise(3): 35/43
+NotHolds PolicyType.Isolation,32.216.65.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.216.65.0/24)},r7
+ - Proc anonym-network-k6-w-noise(1): 34/50
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r7
+ - Proc anonym-network-k6-w-noise(6): 34/35
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r3
+ - Proc anonym-network-k6-w-noise(5): 34/37
+NotHolds PolicyType.Isolation,32.243.213.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.243.213.0/24)},r11
+ - Proc anonym-network-k6-w-noise(0): 38/55
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r10
+ - Proc anonym-network-k6-w-noise(3): 36/43
+NotHolds PolicyType.Isolation,32.188.82.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.188.82.0/24)},r3
+ - Proc anonym-network-k6-w-noise(2): 34/46
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r4
+ - Proc anonym-network-k6-w-noise(4): 35/40
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r5
+ - Proc anonym-network-k6-w-noise(1): 35/50
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r1
+ - Proc anonym-network-k6-w-noise(5): 35/37
+NotHolds PolicyType.Isolation,32.243.213.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.243.213.0/24)},r10
+ - Proc anonym-network-k6-w-noise(0): 39/55
+NotHolds PolicyType.Isolation,32.188.82.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.188.82.0/24)},r1
+ - Proc anonym-network-k6-w-noise(2): 35/46
+NotHolds PolicyType.LoadBalancingSimple,32.246.88.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.246.88.0/24)},r4
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r3
+ - Proc anonym-network-k6-w-noise(1): 36/50
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r8
+ - Proc anonym-network-k6-w-noise(3): 37/43
+NotHolds PolicyType.Isolation,32.26.79.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.26.79.0/24)},r7
+ - Proc anonym-network-k6-w-noise(4): 36/40
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r11
+ - Proc anonym-network-k6-w-noise(5): 36/37
+NotHolds PolicyType.Isolation,32.243.213.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.243.213.0/24)},r2
+ - Proc anonym-network-k6-w-noise(0): 40/55
+NotHolds PolicyType.Isolation,32.188.82.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.188.82.0/24)},r11
+ - Proc anonym-network-k6-w-noise(2): 36/46
+NotHolds PolicyType.Isolation,32.10.199.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.10.199.0/24)},r5
+ - Proc anonym-network-k6-w-noise(4): 37/40
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r9
+ - Proc anonym-network-k6-w-noise(3): 38/43
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r10
+ - Proc anonym-network-k6-w-noise(0): 41/55
+NotHolds PolicyType.Isolation,32.188.82.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.188.82.0/24)},r10
+ - Proc anonym-network-k6-w-noise(2): 37/46
+NotHolds PolicyType.Isolation,32.10.199.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.10.199.0/24)},r3
+ - Proc anonym-network-k6-w-noise(4): 38/40
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r6
+ - Proc anonym-network-k6-w-noise(3): 39/43
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r11
+ - Proc anonym-network-k6-w-noise(1): 38/50
+ - Proc anonym-network-k6-w-noise(0): 42/55
+NotHolds PolicyType.Isolation,32.10.199.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.10.199.0/24)},r1
+ - Proc anonym-network-k6-w-noise(4): 39/40
+NotHolds PolicyType.Isolation,32.188.82.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.188.82.0/24)},r2
+ - Proc anonym-network-k6-w-noise(2): 38/46
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r2
+ - Proc anonym-network-k6-w-noise(3): 40/43
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r10
+ - Proc anonym-network-k6-w-noise(1): 39/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r5
+ - Proc anonym-network-k6-w-noise(2): 39/46
+ - Proc anonym-network-k6-w-noise(0): 43/55
+NotHolds PolicyType.Isolation,32.10.199.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.10.199.0/24)},r11
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r4
+ - Proc anonym-network-k6-w-noise(3): 41/43
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r8
+ - Proc anonym-network-k6-w-noise(1): 40/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r3
+ - Proc anonym-network-k6-w-noise(2): 40/46
+ - Proc anonym-network-k6-w-noise(0): 44/55
+NotHolds PolicyType.Isolation,32.97.192.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.97.192.0/24)},r7
+ - Proc anonym-network-k6-w-noise(3): 42/43
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r9
+ - Proc anonym-network-k6-w-noise(1): 41/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r1
+ - Proc anonym-network-k6-w-noise(2): 41/46
+NotHolds PolicyType.Isolation,32.86.149.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.86.149.0/24)},r5
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r5
+ - Proc anonym-network-k6-w-noise(0): 45/55
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r6
+ - Proc anonym-network-k6-w-noise(1): 42/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r11
+ - Proc anonym-network-k6-w-noise(2): 42/46
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r8
+ - Proc anonym-network-k6-w-noise(0): 46/55
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r4
+ - Proc anonym-network-k6-w-noise(1): 43/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r10
+ - Proc anonym-network-k6-w-noise(2): 43/46
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r9
+ - Proc anonym-network-k6-w-noise(0): 47/55
+NotHolds PolicyType.Isolation,32.213.48.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.213.48.0/24)},r7
+ - Proc anonym-network-k6-w-noise(1): 44/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r8
+ - Proc anonym-network-k6-w-noise(2): 44/46
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r6
+ - Proc anonym-network-k6-w-noise(0): 48/55
+ - Proc anonym-network-k6-w-noise(1): 45/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r9
+ - Proc anonym-network-k6-w-noise(2): 45/46
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r4
+ - Proc anonym-network-k6-w-noise(0): 49/55
+ - Proc anonym-network-k6-w-noise(1): 46/50
+NotHolds PolicyType.Isolation,32.178.5.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.178.5.0/24)},r6
+NotHolds PolicyType.Isolation,32.239.60.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.239.60.0/24)},r7
+ - Proc anonym-network-k6-w-noise(0): 50/55
+ - Proc anonym-network-k6-w-noise(1): 47/50
+ - Proc anonym-network-k6-w-noise(1): 48/50
+ - Proc anonym-network-k6-w-noise(0): 51/55
+NotHolds PolicyType.Isolation,32.210.137.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.210.137.0/24)},r5
+ - Proc anonym-network-k6-w-noise(1): 49/50
+ - Proc anonym-network-k6-w-noise(0): 52/55
+NotHolds PolicyType.Isolation,32.210.137.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.210.137.0/24)},r8
+ - Proc anonym-network-k6-w-noise(0): 53/55
+ - Proc anonym-network-k6-w-noise(0): 54/55
+strawman-1-6-4
+ - Proc strawman-1-6-4(0): 0/56
+ - Proc strawman-1-6-4(1): 0/52
+ - Proc strawman-1-6-4(2): 0/48
+ - Proc strawman-1-6-4(3): 0/44
+ - Proc strawman-1-6-4(4): 0/41
+ - Proc strawman-1-6-4(5): 0/38
+ - Proc strawman-1-6-4(6): 0/36
+ - Proc strawman-1-6-4(7): 0/34
+ - Proc strawman-1-6-4(8): 0/32
+ - Proc strawman-1-6-4(9): 0/30
+ - Proc strawman-1-6-4(10): 0/29
+ - Proc strawman-1-6-4(11): 0/10
+ - Proc strawman-1-6-4(10): 1/29
+ - Proc strawman-1-6-4(8): 1/32
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r11
+ - Proc strawman-1-6-4(0): 1/56
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r2
+ - Proc strawman-1-6-4(2): 1/48
+ - Proc strawman-1-6-4(7): 1/34
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r5
+ - Proc strawman-1-6-4(5): 1/38
+ - Proc strawman-1-6-4(11): 1/10
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r6
+ - Proc strawman-1-6-4(3): 1/44
+ - Proc strawman-1-6-4(6): 1/36
+NotHolds PolicyType.Isolation,32.15.13.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.15.13.0/24)},r1
+ - Proc strawman-1-6-4(4): 1/41
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r10
+ - Proc strawman-1-6-4(1): 1/52
+ - Proc strawman-1-6-4(9): 1/30
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r6
+ - Proc strawman-1-6-4(0): 2/56
+ - Proc strawman-1-6-4(10): 2/29
+ - Proc strawman-1-6-4(7): 2/34
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r9
+ - Proc strawman-1-6-4(5): 2/38
+ - Proc strawman-1-6-4(8): 2/32description": "Limit the number of traces returned.",
+        "displayName": "Max Traces",
+        "optional": true,
+        "type": "integer"
+      },
+      "pathCon
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r9
+ - Proc strawman-1-6-4(2): 2/48
+ - Proc strawman-1-6-4(11): 2/10
+ - Proc strawman-1-6-4(6): 2/36
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r5
+ - Proc strawman-1-6-4(3): 2/44
+NotHolds PolicyType.Isolation,32.15.13.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.15.13.0/24)},r3
+ - Proc strawman-1-6-4(4): 2/41
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r1
+ - Proc strawman-1-6-4(1): 2/52
+ - Proc strawman-1-6-4(9): 2/30
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r5
+ - Proc strawman-1-6-4(0): 3/56
+ - Proc strawman-1-6-4(7): 3/34
+ - Proc strawman-1-6-4(8): 3/32
+ - Proc strawman-1-6-4(10): 3/29
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r8
+ - Proc strawman-1-6-4(5): 3/38
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r7
+ - Proc strawman-1-6-4(2): 3/48
+ - Proc strawman-1-6-4(6): 3/36
+ - Proc strawman-1-6-4(11): 3/10
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r8
+ - Proc strawman-1-6-4(3): 3/44
+ - Proc strawman-1-6-4(4): 3/41
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r8
+ - Proc strawman-1-6-4(0): 4/56
+ - Proc strawman-1-6-4(9): 3/30
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r3
+ - Proc strawman-1-6-4(1): 3/52
+ - Proc strawman-1-6-4(7): 4/34
+ - Proc strawman-1-6-4(8): 4/32
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r4
+ - Proc strawman-1-6-4(5): 4/38
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r10
+ - Proc strawman-1-6-4(2): 4/48
+ - Proc strawman-1-6-4(10): 4/29
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r11
+ - Proc strawman-1-6-4(6): 4/36
+ - Proc strawman-1-6-4(11): 4/10
+ - Proc strawman-1-6-4(9): 4/30
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r2
+ - Proc strawman-1-6-4(3): 4/44
+ - Proc strawman-1-6-4(4): 4/41
+ - Proc strawman-1-6-4(1): 4/52
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r2
+ - Proc strawman-1-6-4(0): 5/56
+ - Proc strawman-1-6-4(7): 5/34
+ - Proc strawman-1-6-4(8): 5/32
+ - Proc strawman-1-6-4(10): 5/29
+NotHolds PolicyType.Isolation,2.128.9.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r10:GigabitEthernet3/0 (2.128.9.0/24)},r7
+ - Proc strawman-1-6-4(5): 5/38
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r1
+ - Proc strawman-1-6-4(2): 5/48
+ - Proc strawman-1-6-4(1): 5/52
+ - Proc strawman-1-6-4(9): 5/30
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r9
+ - Proc strawman-1-6-4(3): 5/44
+ - Proc strawman-1-6-4(11): 5/10
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r2
+ - Proc strawman-1-6-4(6): 5/36
+ - Proc strawman-1-6-4(4): 5/41
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r9
+ - Proc strawman-1-6-4(0): 6/56
+ - Proc strawman-1-6-4(5): 6/38
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r3
+ - Proc strawman-1-6-4(2): 6/48
+ - Proc strawman-1-6-4(11): 6/10
+ - Proc strawman-1-6-4(1): 6/52
+ - Proc strawman-1-6-4(8): 6/32
+ - Proc strawman-1-6-4(7): 6/34
+ - Proc strawman-1-6-4(9): 6/30
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r10
+ - Proc strawman-1-6-4(6): 6/36
+ - Proc strawman-1-6-4(10): 6/29
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r7
+ - Proc strawman-1-6-4(3): 6/44
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r7
+ - Proc strawman-1-6-4(0): 7/56
+ - Proc strawman-1-6-4(5): 7/38
+ - Proc strawman-1-6-4(2): 7/48
+ - Proc strawman-1-6-4(11): 7/10
+ - Proc strawman-1-6-4(1): 7/52
+ - Proc strawman-1-6-4(4): 6/41
+ - Proc strawman-1-6-4(8): 7/32
+ - Proc strawman-1-6-4(7): 7/34
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r1
+ - Proc strawman-1-6-4(6): 7/36
+ - Proc strawman-1-6-4(9): 7/30
+ - Proc strawman-1-6-4(10): 7/29
+ - Proc strawman-1-6-4(2): 8/48
+ - Proc strawman-1-6-4(4): 7/41
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r10
+ - Proc strawman-1-6-4(3): 7/44
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r4
+ - Proc strawman-1-6-4(0): 8/56
+ - Proc strawman-1-6-4(7): 8/34
+ - Proc strawman-1-6-4(8): 8/32
+ - Proc strawman-1-6-4(5): 8/38
+ - Proc strawman-1-6-4(11): 8/10
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r6
+ - Proc strawman-1-6-4(1): 8/52
+ - Proc strawman-1-6-4(9): 8/30
+ - Proc strawman-1-6-4(2): 9/48
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r10
+ - Proc strawman-1-6-4(0): 9/56
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r1
+ - Proc strawman-1-6-4(3): 8/44
+NotHolds PolicyType.Isolation,2.128.3.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet2/0 (2.128.3.0/24)},r3
+ - Proc strawman-1-6-4(6): 8/36
+ - Proc strawman-1-6-4(10): 8/29
+ - Proc strawman-1-6-4(7): 9/34
+ - Proc strawman-1-6-4(8): 9/32
+NotHolds PolicyType.Isolation,32.12.180.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r11
+ - Proc strawman-1-6-4(4): 8/41
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r5
+ - Proc strawman-1-6-4(1): 9/52
+ - Proc strawman-1-6-4(11): 9/10
+ - Proc strawman-1-6-4(5): 9/38
+ - Proc strawman-1-6-4(2): 10/48
+ - Proc strawman-1-6-4(9): 9/30
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r3
+ - Proc strawman-1-6-4(3): 9/44
+NotHolds PolicyType.Isolation,32.12.180.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r2
+ - Proc strawman-1-6-4(4): 9/41
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r3
+ - Proc strawman-1-6-4(0): 10/56
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r9
+ - Proc strawman-1-6-4(1): 10/52
+ - Proc strawman-1-6-4(6): 9/36
+ - Proc strawman-1-6-4(10): 9/29
+ - Proc strawman-1-6-4(7): 10/34
+ - Proc strawman-1-6-4(8): 10/32
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r6
+ - Proc strawman-1-6-4(5): 10/38
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r6
+ - Proc strawman-1-6-4(2): 11/48
+ - Proc strawman-1-6-4(9): 10/30
+NotHolds PolicyType.Isolation,32.12.180.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r10
+ - Proc strawman-1-6-4(4): 10/41
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r11
+ - Proc strawman-1-6-4(0): 11/56
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r8
+ - Proc strawman-1-6-4(1): 11/52
+ - Proc strawman-1-6-4(8): 11/32
+ - Proc strawman-1-6-4(7): 11/34
+ - Proc strawman-1-6-4(6): 10/36
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r5
+ - Proc strawman-1-6-4(2): 12/48
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r5
+ - Proc strawman-1-6-4(5): 11/38
+ - Proc strawman-1-6-4(10): 10/29
+ - Proc strawman-1-6-4(9): 11/30
+NotHolds PolicyType.Isolation,32.12.180.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r1
+ - Proc strawman-1-6-4(4): 11/41
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r4
+ - Proc strawman-1-6-4(1): 12/52
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r9
+ - Proc strawman-1-6-4(2): 13/48
+ - Proc strawman-1-6-4(8): 12/32
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r11
+ - Proc strawman-1-6-4(3): 11/44
+ - Proc strawman-1-6-4(7): 12/34
+ - Proc strawman-1-6-4(6): 11/36
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r6
+ - Proc strawman-1-6-4(0): 12/56
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r9
+ - Proc strawman-1-6-4(5): 12/38
+ - Proc strawman-1-6-4(10): 11/29
+ - Proc strawman-1-6-4(9): 12/30
+ - Proc strawman-1-6-4(7): 13/34
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r6
+ - Proc strawman-1-6-4(3): 12/44
+NotHolds PolicyType.Isolation,32.12.180.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r3
+ - Proc strawman-1-6-4(4): 12/41
+NotHolds PolicyType.Isolation,32.198.101.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet110/0 (32.198.101.0/24)},r7
+ - Proc strawman-1-6-4(1): 13/52
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r8
+ - Proc strawman-1-6-4(2): 14/48
+ - Proc strawman-1-6-4(6): 12/36
+ - Proc strawman-1-6-4(10): 12/29
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r5
+ - Proc strawman-1-6-4(0): 13/56
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r8
+ - Proc strawman-1-6-4(5): 13/38
+ - Proc strawman-1-6-4(8): 13/32
+ - Proc strawman-1-6-4(9): 13/30
+ - Proc strawman-1-6-4(4): 13/41
+ - Proc strawman-1-6-4(7): 14/34
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r4
+ - Proc strawman-1-6-4(2): 15/48
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r8
+ - Proc strawman-1-6-4(3): 13/44
+ - Proc strawman-1-6-4(1): 14/52
+ - Proc strawman-1-6-4(8): 14/32
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r6
+ - Proc strawman-1-6-4(6): 13/36
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r8
+ - Proc strawman-1-6-4(0): 14/56
+ - Proc strawman-1-6-4(10): 13/29
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r4
+ - Proc strawman-1-6-4(5): 14/38
+ - Proc strawman-1-6-4(9): 14/30
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r11
+ - Proc strawman-1-6-4(4): 14/41
+ - Proc strawman-1-6-4(7): 15/34
+NotHolds PolicyType.Isolation,32.105.71.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet110/0 (32.105.71.0/24)},r7
+ - Proc strawman-1-6-4(2): 16/48
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r9
+ - Proc strawman-1-6-4(0): 15/56
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r2
+ - Proc strawman-1-6-4(3): 14/44
+ - Proc strawman-1-6-4(1): 15/52
+ - Proc strawman-1-6-4(9): 15/30
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r5
+ - Proc strawman-1-6-4(6): 14/36
+ - Proc strawman-1-6-4(8): 15/32
+ - Proc strawman-1-6-4(10): 14/29
+NotHolds PolicyType.Isolation,2.128.8.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet3/0 (2.128.8.0/24)},r7
+ - Proc strawman-1-6-4(5): 15/38
+ - Proc strawman-1-6-4(2): 17/48
+ - Proc strawman-1-6-4(1): 16/52
+ - Proc strawman-1-6-4(8): 16/32
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r6
+ - Proc strawman-1-6-4(4): 15/41
+ - Proc strawman-1-6-4(7): 16/34
+ - Proc strawman-1-6-4(5): 16/38
+ - Proc strawman-1-6-4(9): 16/30
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r9
+ - Proc strawman-1-6-4(6): 15/36
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r7
+ - Proc strawman-1-6-4(0): 16/56
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r9
+ - Proc strawman-1-6-4(3): 15/44
+ - Proc strawman-1-6-4(10): 15/29
+ - Proc strawman-1-6-4(8): 17/32
+ - Proc strawman-1-6-4(2): 18/48
+ - Proc strawman-1-6-4(1): 17/52
+ - Proc strawman-1-6-4(7): 17/34
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r8
+ - Proc strawman-1-6-4(4): 16/41
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r4
+ - Proc strawman-1-6-4(0): 17/56
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r8
+ - Proc strawman-1-6-4(6): 16/36
+ - Proc strawman-1-6-4(5): 17/38
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r7
+ - Proc strawman-1-6-4(3): 16/44
+ - Proc strawman-1-6-4(9): 17/30
+ - Proc strawman-1-6-4(2): 19/48
+ - Proc strawman-1-6-4(10): 16/29
+ - Proc strawman-1-6-4(8): 18/32
+ - Proc strawman-1-6-4(7): 18/34
+ - Proc strawman-1-6-4(1): 18/52
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r2
+ - Proc strawman-1-6-4(4): 17/41
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r10
+ - Proc strawman-1-6-4(0): 18/56
+ - Proc strawman-1-6-4(5): 18/38
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r10
+ - Proc strawman-1-6-4(3): 17/44
+ - Proc strawman-1-6-4(9): 18/30
+ - Proc strawman-1-6-4(2): 20/48
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r4
+ - Proc strawman-1-6-4(6): 17/36
+ - Proc strawman-1-6-4(10): 17/29
+ - Proc strawman-1-6-4(8): 19/32
+ - Proc strawman-1-6-4(7): 19/34
+NotHolds PolicyType.Isolation,32.195.67.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r11
+ - Proc strawman-1-6-4(1): 19/52
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r9
+ - Proc strawman-1-6-4(4): 18/41
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r1
+ - Proc strawman-1-6-4(0): 19/56
+ - Proc strawman-1-6-4(5): 19/38
+0.0.0.0/0","srcPorts":null,"tcpFl - Proc strawman-1-6-4(2): 21/48
+ - Proc strawman-1-6-4(9): 19/30
+NotHolds PolicyType.Isolation,2.128.2.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet2/0 (2.128.2.0/24)},r7
+ - Proc strawman-1-6-4(6): 18/36
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r1
+ - Proc strawman-1-6-4(3): 18/44
+ - Proc strawman-1-6-4(10): 18/29
+ - Proc strawman-1-6-4(7): 20/34
+NotHolds PolicyType.Isolation,32.195.67.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r2
+ - Proc strawman-1-6-4(1): 20/52
+ - Proc strawman-1-6-4(8): 20/32
+NotHolds PolicyType.Isolation,32.99.35.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r11
+ - Proc strawman-1-6-4(2): 22/48
+ - Proc strawman-1-6-4(9): 20/30
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r7
+ - Proc strawman-1-6-4(4): 19/41
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r3
+ - Proc strawman-1-6-4(0): 20/56
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r6
+ - Proc strawman-1-6-4(5): 20/38
+ - Proc strawman-1-6-4(6): 19/36
+NotHolds PolicyType.Isolation,32.63.82.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r3
+ - Proc strawman-1-6-4(3): 19/44
+NotHolds PolicyType.Isolation,32.195.67.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r10
+ - Proc strawman-1-6-4(1): 21/52
+ - Proc strawman-1-6-4(8): 21/32
+ - Proc strawman-1-6-4(9): 21/30
+ - Proc strawman-1-6-4(0): 21/56
+ - Proc strawman-1-6-4(10): 19/29
+ - Proc strawman-1-6-4(7): 21/34
+NotHolds PolicyType.Isolation,32.99.35.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r2
+ - Proc strawman-1-6-4(2): 23/48
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r10
+ - Proc strawman-1-6-4(4): 20/41
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r5
+ - Proc strawman-1-6-4(5): 21/38
+ - Proc strawman-1-6-4(3): 20/44
+ - Proc strawman-1-6-4(7): 22/34
+NotHolds PolicyType.Isolation,32.99.35.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r10
+ - Proc strawman-1-6-4(2): 24/48
+ - Proc strawman-1-6-4(6): 20/36
+NotHolds PolicyType.Isolation,32.195.67.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r1
+ - Proc strawman-1-6-4(1): 22/52
+ - Proc strawman-1-6-4(8): 22/32
+ - Proc strawman-1-6-4(0): 22/56
+ - Proc strawman-1-6-4(9): 22/30
+ - Proc strawman-1-6-4(10): 20/29
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r1
+ - Proc strawman-1-6-4(4): 21/41
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r9
+ - Proc strawman-1-6-4(5): 22/38
+ - Proc strawman-1-6-4(3): 21/44
+NotHolds PolicyType.Isolation,32.99.35.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r1
+ - Proc strawman-1-6-4(2): 25/48
+ - Proc strawman-1-6-4(7): 23/34
+ - Proc strawman-1-6-4(8): 23/32
+ - Proc strawman-1-6-4(10): 21/29
+ - Proc strawman-1-6-4(6): 21/36
+NotHolds PolicyType.Isolation,32.195.67.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r3
+ - Proc strawman-1-6-4(1): 23/52
+ - Proc strawman-1-6-4(0): 23/56
+ - Proc strawman-1-6-4(9): 23/30
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r8
+ - Proc strawman-1-6-4(5): 23/38
+NotHolds PolicyType.Isolation,32.10.252.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet110/0 (32.10.252.0/24)},r3
+ - Proc strawman-1-6-4(4): 22/41
+ - Proc strawman-1-6-4(3): 22/44
+ - Proc strawman-1-6-4(7): 24/34
+NotHolds PolicyType.Isolation,32.99.35.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r3
+ - Proc strawman-1-6-4(2): 26/48
+ - Proc strawman-1-6-4(8): 24/32
+ - Proc strawman-1-6-4(10): 22/29
+ - Proc strawman-1-6-4(1): 24/52
+ - Proc strawman-1-6-4(6): 22/36
+ - Proc strawman-1-6-4(0): 24/56
+ - Proc strawman-1-6-4(9): 24/30
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r4
+ - Proc strawman-1-6-4(5): 24/38
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r11
+ - Proc strawman-1-6-4(4): 23/41
+ - Proc strawman-1-6-4(8): 25/32
+ - Proc strawman-1-6-4(2): 27/48
+ - Proc strawman-1-6-4(1): 25/52
+ - Proc strawman-1-6-4(7): 25/34
+ - Proc strawman-1-6-4(3): 23/44
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r6
+ - Proc strawman-1-6-4(6): 23/36
+ - Proc strawman-1-6-4(0): 25/56
+ - Proc strawman-1-6-4(10): 23/29
+ - Proc strawman-1-6-4(9): 25/30
+NotHolds PolicyType.Isolation,2.128.7.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet3/0 (2.128.7.0/24)},r7
+ - Proc strawman-1-6-4(5): 25/38
+ - Proc strawman-1-6-4(2): 28/48
+ - Proc strawman-1-6-4(8): 26/32
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r6
+ - Proc strawman-1-6-4(4): 24/41
+ - Proc strawman-1-6-4(1): 26/52
+ - Proc strawman-1-6-4(7): 26/34
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r6
+ - Proc strawman-1-6-4(3): 24/44
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r5
+ - Proc strawman-1-6-4(6): 24/36
+ - Proc strawman-1-6-4(10): 24/29
+NotHolds PolicyType.Isolation,32.215.80.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r11
+ - Proc strawman-1-6-4(0): 26/56
+ - Proc strawman-1-6-4(9): 26/30
+ - Proc strawman-1-6-4(5): 26/38
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r5
+ - Proc strawman-1-6-4(4): 25/41
+ - Proc strawman-1-6-4(2): 29/48
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r9
+ - Proc strawman-1-6-4(6): 25/36
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r5
+ - Proc strawman-1-6-4(3): 25/44
+ - Proc strawman-1-6-4(1): 27/52
+ - Proc strawman-1-6-4(7): 27/34
+ - Proc strawman-1-6-4(8): 27/32
+ - Proc strawman-1-6-4(10): 25/29
+NotHolds PolicyType.Isolation,32.215.80.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r2
+ - Proc strawman-1-6-4(0): 27/56
+ - Proc strawman-1-6-4(9): 27/30
+ - Proc strawman-1-6-4(5): 27/38
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r8
+ - Proc strawman-1-6-4(4): 26/41
+ - Proc strawman-1-6-4(2): 30/48
+ - Proc strawman-1-6-4(8): 28/32
+ - Proc strawman-1-6-4(10): 26/29
+ - Proc strawman-1-6-4(7): 28/34
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r6
+ - Proc strawman-1-6-4(1): 28/52
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r9
+ - Proc strawman-1-6-4(3): 26/44
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r8
+ - Proc strawman-1-6-4(6): 26/36
+NotHolds PolicyType.Isolation,32.215.80.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r10
+ - Proc strawman-1-6-4(0): 28/56
+ - Proc strawman-1-6-4(5): 28/38
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r2
+ - Proc strawman-1-6-4(4): 27/41
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r6
+ - Proc strawman-1-6-4(2): 31/48
+ - Proc strawman-1-6-4(9): 28/30
+ - Proc strawman-1-6-4(8): 29/32
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r8
+ - Proc strawman-1-6-4(3): 27/44
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r4
+ - Proc strawman-1-6-4(6): 27/36
+ - Proc strawman-1-6-4(7): 29/34
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r5
+ - Proc strawman-1-6-4(1): 29/52
+ - Proc strawman-1-6-4(10): 27/29
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r9
+ - Proc strawman-1-6-4(4): 28/41
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r5
+ - Proc strawman-1-6-4(2): 32/48
+NotHolds PolicyType.Isolation,32.215.80.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r1
+ - Proc strawman-1-6-4(0): 29/56
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r9
+ - Proc strawman-1-6-4(1): 30/52
+ - Proc strawman-1-6-4(9): 29/30
+ - Proc strawman-1-6-4(7): 30/34
+ - Proc strawman-1-6-4(5): 29/38
+ - Proc strawman-1-6-4(8): 30/32
+ - Proc strawman-1-6-4(10): 28/29
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r4
+ - Proc strawman-1-6-4(3): 28/44
+NotHolds PolicyType.Isolation,2.128.1.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet2/0 (2.128.1.0/24)},r7
+ - Proc strawman-1-6-4(6): 28/36
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r7
+ - Proc strawman-1-6-4(4): 29/41
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r9
+ - Proc strawman-1-6-4(2): 33/48
+NotHolds PolicyType.Isolation,32.215.80.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r3
+ - Proc strawman-1-6-4(0): 30/56
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r8
+ - Proc strawman-1-6-4(1): 31/52
+ - Proc strawman-1-6-4(7): 31/34
+NotHolds PolicyType.LoadBalancingSimple,32.215.80.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet100/0 (32.215.80.0/24)},r4
+ - Proc strawman-1-6-4(6): 29/36
+NotHolds PolicyType.Isolation,32.62.65.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet100/0 (32.62.65.0/24)},r7
+ - Proc strawman-1-6-4(3): 29/44
+ - Proc strawman-1-6-4(8): 31/32
+ - Proc strawman-1-6-4(5): 30/38
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r11
+ - Proc strawman-1-6-4(0): 31/56
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r10
+ - Proc strawman-1-6-4(4): 30/41
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r8
+ - Proc strawman-1-6-4(2): 34/48
+ - Proc strawman-1-6-4(7): 32/34
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r4
+ - Proc strawman-1-6-4(1): 32/52
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r4
+ - Proc strawman-1-6-4(2): 35/48
+ - Proc strawman-1-6-4(3): 30/44
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r11
+ - Proc strawman-1-6-4(5): 31/38
+NotHolds PolicyType.LoadBalancingSimple,32.195.67.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet110/0 (32.195.67.0/24)},r4
+ - Proc strawman-1-6-4(6): 30/36
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r6
+ - Proc strawman-1-6-4(0): 32/56
+ - Proc strawman-1-6-4(7): 33/34
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r5
+ - Proc strawman-1-6-4(0): 33/56
+NotHolds PolicyType.Isolation,32.179.214.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r11:GigabitEthernet120/0 (32.179.214.0/24)},r7
+ - Proc strawman-1-6-4(1): 33/52
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r1
+ - Proc strawman-1-6-4(4): 31/41
+NotHolds PolicyType.Isolation,32.2.184.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet100/0 (32.2.184.0/24)},r3
+ - Proc strawman-1-6-4(4): 32/41
+ - Proc strawman-1-6-4(1): 34/52
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r11
+ - Proc strawman-1-6-4(3): 31/44
+NotHolds PolicyType.LoadBalancingSimple,32.99.35.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet150/0 (32.99.35.0/24)},r4
+ - Proc strawman-1-6-4(6): 31/36
+NotHolds PolicyType.Isolation,32.82.210.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet120/0 (32.82.210.0/24)},r7
+ - Proc strawman-1-6-4(2): 36/48
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r2
+ - Proc strawman-1-6-4(5): 32/38
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r8
+ - Proc strawman-1-6-4(0): 34/56
+ - Proc strawman-1-6-4(1): 35/52
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r6
+ - Proc strawman-1-6-4(3): 32/44
+NotHolds PolicyType.LoadBalancingSimple,32.15.13.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.15.13.0/24)},r4
+ - Proc strawman-1-6-4(6): 32/36
+ - Proc strawman-1-6-4(4): 33/41
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r10
+ - Proc strawman-1-6-4(5): 33/38
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r11
+ - Proc strawman-1-6-4(2): 37/48
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r9
+ - Proc strawman-1-6-4(0): 35/56
+ - Proc strawman-1-6-4(1): 36/52
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r8
+ - Proc strawman-1-6-4(3): 33/44
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r6
+ - Proc strawman-1-6-4(2): 38/48
+NotHolds PolicyType.LoadBalancingSimple,32.12.180.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet120/0 (32.12.180.0/24)},r4
+ - Proc strawman-1-6-4(6): 33/36
+ - Proc strawman-1-6-4(4): 34/41
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r1
+ - Proc strawman-1-6-4(5): 34/38
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r7
+ - Proc strawman-1-6-4(0): 36/56
+ - Proc strawman-1-6-4(1): 37/52
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r5
+ - Proc strawman-1-6-4(2): 39/48
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r2
+ - Proc strawman-1-6-4(3): 34/44
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r4
+ - Proc strawman-1-6-4(0): 37/56
+NotHolds PolicyType.LoadBalancingSimple,32.2.120.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r4
+ - Proc strawman-1-6-4(6): 34/36
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r3
+ - Proc strawman-1-6-4(5): 35/38
+ - Proc strawman-1-6-4(4): 35/41
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r6
+ - Proc strawman-1-6-4(1): 38/52
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r10
+ - Proc strawman-1-6-4(0): 38/56
+ - Proc strawman-1-6-4(4): 36/41
+ - Proc strawman-1-6-4(6): 35/36
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r8
+ - Proc strawman-1-6-4(2): 40/48
+ - Proc strawman-1-6-4(5): 36/38
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r5
+ - Proc strawman-1-6-4(1): 39/52
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r2
+ - Proc strawman-1-6-4(2): 41/48
+ - Proc strawman-1-6-4(5): 37/38
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r9
+ - Proc strawman-1-6-4(1): 40/52
+ - Proc strawman-1-6-4(4): 37/41
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r7
+ - Proc strawman-1-6-4(3): 36/44
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r1
+ - Proc strawman-1-6-4(0): 39/56
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r10
+ - Proc strawman-1-6-4(3): 37/44
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r9
+ - Proc strawman-1-6-4(2): 42/48
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r11
+ - Proc strawman-1-6-4(4): 38/41
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r8
+ - Proc strawman-1-6-4(1): 41/52
+NotHolds PolicyType.Isolation,32.212.199.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet110/0 (32.212.199.0/24)},r3
+ - Proc strawman-1-6-4(0): 40/56
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r1
+ - Proc strawman-1-6-4(3): 38/44
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r11
+ - Proc strawman-1-6-4(0): 41/56
+NotHolds PolicyType.Isolation,32.58.219.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet90/0 (32.58.219.0/24)},r3
+ - Proc strawman-1-6-4(3): 39/44
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r7
+ - Proc strawman-1-6-4(2): 43/48
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r4
+ - Proc strawman-1-6-4(1): 42/52
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r2
+ - Proc strawman-1-6-4(4): 39/41
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r11
+ - Proc strawman-1-6-4(3): 40/44
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r6
+ - Proc strawman-1-6-4(0): 42/56
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r10
+ - Proc strawman-1-6-4(4): 40/41
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r4
+ - Proc strawman-1-6-4(2): 44/48
+NotHolds PolicyType.Isolation,32.178.4.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r3:GigabitEthernet100/0 (32.178.4.0/24)},r7
+ - Proc strawman-1-6-4(1): 43/52
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r6
+ - Proc strawman-1-6-4(3): 41/44
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r5
+ - Proc strawman-1-6-4(0): 43/56
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r10
+ - Proc strawman-1-6-4(2): 45/48
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r1
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r11
+ - Proc strawman-1-6-4(1): 44/52
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r5
+ - Proc strawman-1-6-4(3): 42/44
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r8
+ - Proc strawman-1-6-4(0): 44/56
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r3
+ - Proc strawman-1-6-4(2): 46/48
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r8
+ - Proc strawman-1-6-4(3): 43/44
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r6
+ - Proc strawman-1-6-4(1): 45/52
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r11
+ - Proc strawman-1-6-4(2): 47/48
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r9
+ - Proc strawman-1-6-4(0): 45/56
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r2
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r6
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r5
+ - Proc strawman-1-6-4(1): 46/52
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r8
+ - Proc strawman-1-6-4(1): 47/52
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r7
+ - Proc strawman-1-6-4(0): 46/56
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r4
+ - Proc strawman-1-6-4(0): 47/56
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r10
+ - Proc strawman-1-6-4(0): 48/56
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r9
+ - Proc strawman-1-6-4(1): 48/52
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r1
+ - Proc strawman-1-6-4(0): 49/56
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r7
+ - Proc strawman-1-6-4(1): 49/52
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r4
+ - Proc strawman-1-6-4(1): 50/52
+NotHolds PolicyType.Isolation,32.210.243.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet120/0 (32.210.243.0/24)},r3
+ - Proc strawman-1-6-4(0): 50/56
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r10
+ - Proc strawman-1-6-4(1): 51/52
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r11
+ - Proc strawman-1-6-4(0): 51/56
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r1
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r6
+ - Proc strawman-1-6-4(0): 52/56
+NotHolds ","ip":"130.181.230.225"},"nextHopIp":"130.181.230.225","protocol":"bgp"}],"vrf":"default"}},{"type":"ExitOutputInterface","action":"TRANSMITTED","detail"PolicyType.Isolation,32.204.55.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r5
+ - Proc strawman-1-6-4(0): 53/56
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r8
+ - Proc strawman-1-6-4(0): 54/56
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r9
+ - Proc strawman-1-6-4(0): 55/56
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r7
+anonym-network-k6-4-w-noise
+ - Proc anonym-network-k6-4-w-noise(0): 0/52
+ - Proc anonym-network-k6-4-w-noise(1): 0/48
+ - Proc anonym-network-k6-4-w-noise(2): 0/44
+ - Proc anonym-network-k6-4-w-noise(3): 0/41
+ - Proc anonym-network-k6-4-w-noise(4): 0/38
+ - Proc anonym-network-k6-4-w-noise(5): 0/36
+ - Proc anonym-network-k6-4-w-noise(6): 0/33
+ - Proc anonym-network-k6-4-w-noise(7): 0/31
+ - Proc anonym-network-k6-4-w-noise(8): 0/30
+ - Proc anonym-network-k6-4-w-noise(9): 0/28
+ - Proc anonym-network-k6-4-w-noise(10): 0/27
+ - Proc anonym-network-k6-4-w-noise(11): 0/10
+ - Proc anonym-network-k6-4-w-noise(9): 1/28
+ - Proc anonym-network-k6-4-w-noise(10): 1/27
+NotHolds PolicyType.LoadBalancingSimple,32.63.82.0/24,2,r4,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet100/0 (32.63.82.0/24)},r4
+ - Proc anonym-network-k6-4-w-noise(7): 1/31
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(5): 1/36
+NotHolds PolicyType.Isolation,32.78.226.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet100/0 (32.78.226.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(3): 1/41
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(2): 1/44
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r9
+ - Proc anonym-network-k6-4-w-noise(0): 1/52
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(6): 1/33
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r6
+ - Proc anonym-network-k6-4-w-noise(4): 1/38
+ - Proc anonym-network-k6-4-w-noise(8): 1/30
+ - Proc anonym-network-k6-4-w-noise(11): 1/10
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r6
+ - Proc anonym-network-k6-4-w-noise(1): 1/48
+ - Proc anonym-network-k6-4-w-noise(7): 2/31
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(0): 2/52
+ - Proc anonym-network-k6-4-w-noise(10): 2/27
+ - Proc anonym-network-k6-4-w-noise(9): 2/28
+NotHolds PolicyType.Isolation,2.128.6.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r5:GigabitEthernet3/0 (2.128.6.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(6): 2/33
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(5): 2/36
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r9
+ - Proc anonym-network-k6-4-w-noise(3): 2/41
+ - Proc anonym-network-k6-4-w-noise(8): 2/30
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(4): 2/38
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(2): 2/44
+ - Proc anonym-network-k6-4-w-noise(11): 2/10
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r4
+ - Proc anonym-network-k6-4-w-noise(1): 2/48
+ - Proc anonym-network-k6-4-w-noise(7): 3/31
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r6
+ - Proc anonym-network-k6-4-w-noise(0): 3/52
+ - Proc anonym-network-k6-4-w-noise(9): 3/28
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(5): 3/36
+ - Proc anonym-network-k6-4-w-noise(6): 3/33
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(3): 3/41
+ - Proc anonym-network-k6-4-w-noise(10): 3/27
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r4
+ - Proc anonym-network-k6-4-w-noise(4): 3/38
+ - Proc anonym-network-k6-4-w-noise(8): 3/30
+ - Proc anonym-network-k6-4-w-noise(11): 3/10
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(1): 3/48
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(0): 4/52
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(5): 4/36
+ - Proc anonym-network-k6-4-w-noise(7): 4/31
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(2): 3/44
+ - Proc anonym-network-k6-4-w-noise(9): 4/28
+ - Proc anonym-network-k6-4-w-noise(6): 4/33
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(3): 4/41
+ - Proc anonym-network-k6-4-w-noise(10): 4/27
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(4): 4/38
+ - Proc anonym-network-k6-4-w-noise(8): 4/30
+ - Proc anonym-network-k6-4-w-noise(11): 4/10
+ - Proc anonym-network-k6-4-w-noise(6): 5/33
+NotHolds PolicyType.Isolation,32.2.120.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet140/0 (32.2.120.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(5): 5/36
+ - Proc anonym-network-k6-4-w-noise(9): 5/28
+NotHolds PolicyType.Isolation,32.132.186.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet150/0 (32.132.186.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(2): 4/44
+ - Proc anonym-network-k6-4-w-noise(7): 5/31
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(1): 4/48
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r4
+ - Proc anonym-network-k6-4-w-noise(0): 5/52
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r6
+ - Proc anonym-network-k6-4-w-noise(3): 5/41
+ - Proc anonym-network-k6-4-w-noise(10): 5/27
+ - Proc anonym-network-k6-4-w-noise(8): 5/30
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(4): 5/38
+ - Proc anonym-network-k6-4-w-noise(11): 5/10
+ - Proc anonym-network-k6-4-w-noise(6): 6/33
+ - Proc anonym-network-k6-4-w-noise(9): 6/28
+ - Proc anonym-network-k6-4-w-noise(5): 6/36
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r9
+ - Proc anonym-network-k6-4-w-noise(2): 5/44
+ - Proc anonym-network-k6-4-w-noise(7): 6/31
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(0): 6/52
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(4): 6/38
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(1): 5/48
+ - Proc anonym-network-k6-4-w-noise(11): 6/10
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r4,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r4
+ - Proc anonym-network-k6-4-w-noise(3): 6/41
+ - Proc anonym-network-k6-4-w-noise(10): 6/27
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(0): 7/52
+NotHolds PolicyType.Isolation,2.128.5.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet2/0 (2.128.5.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(6): 7/33
+ - Proc anonym-network-k6-4-w-noise(8): 6/30
+ - Proc anonym-network-k6-4-w-noise(9): 7/28
+ - Proc anonym-network-k6-4-w-noise(7): 7/31
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(4): 7/38
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(1): 6/48
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(2): 6/44
+ - Proc anonym-network-k6-4-w-noise(5): 7/36
+ - Proc anonym-network-k6-4-w-noise(8): 7/30
+NotHolds PolicyType.Isolation,2.128.5.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet2/0 (2.128.5.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(6): 8/33
+ - Proc anonym-network-k6-4-w-noise(10): 7/27
+ - Proc anonym-network-k6-4-w-noise(11): 7/10
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(0): 8/52
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(3): 7/41
+ - Proc anonym-network-k6-4-w-noise(9): 8/28
+ - Proc anonym-network-k6-4-w-noise(7): 8/31
+NotHolds PolicyType.Isolation,32.33.222.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet110/0 (32.33.222.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(4): 8/38
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(2): 7/44
+ - Proc anonym-network-k6-4-w-noise(5): 8/36
+NotHolds PolicyType.Isolation,32.204.55.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet130/0 (32.204.55.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(1): 7/48
+ - Proc anonym-network-k6-4-w-noise(8): 8/30
+NotHolds PolicyType.Isolation,2.128.5.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet2/0 (2.128.5.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(6): 9/33
+ - Proc anonym-network-k6-4-w-noise(10): 8/27
+ - Proc anonym-network-k6-4-w-noise(11): 8/10
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(0): 9/52
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(3): 8/41
+ - Proc anonym-network-k6-4-w-noise(4): 9/38
+ - Proc anonym-network-k6-4-w-noise(7): 9/31
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r6,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r6
+ - Proc anonym-network-k6-4-w-noise(2): 8/44
+ - Proc anonym-network-k6-4-w-noise(9): 9/28
+ - Proc anonym-network-k6-4-w-noise(1): 8/48
+ - Proc anonym-network-k6-4-w-noise(5): 9/36
+ - Proc anonym-network-k6-4-w-noise(8): 9/30
+NotHolds PolicyType.Isolation,32.220.204.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r1:GigabitEthernet120/0 (32.220.204.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(0): 10/52
+ - Proc anonym-network-k6-4-w-noise(6): 10/33
+ - Proc anonym-network-k6-4-w-noise(10): 9/27
+ - Proc anonym-network-k6-4-w-noise(4): 10/38
+ - Proc anonym-network-k6-4-w-noise(11): 9/10
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(3): 9/41
+ - Proc anonym-network-k6-4-w-noise(7): 10/31
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(2): 9/44
+ - Proc anonym-network-k6-4-w-noise(9): 10/28
+ - Proc anonym-network-k6-4-w-noise(1): 9/48
+ - Proc anonym-network-k6-4-w-noise(5): 10/36
+ - Proc anonym-network-k6-4-w-noise(8): 10/30
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r9
+ - Proc anonym-network-k6-4-w-noise(0): 11/52
+NotHolds PolicyType.Isolation,2.128.5.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet2/0 (2.128.5.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(6): 11/33
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(3): 10/41
+ - Proc anonym-network-k6-4-w-noise(10): 10/27
+ - Proc anonym-network-k6-4-w-noise(4): 11/38
+ - Proc anonym-network-k6-4-w-noise(9): 11/28
+ - Proc anonym-network-k6-4-w-noise(1): 10/48
+NotHolds PolicyType.Isolation,2.128.10.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet3/0 (2.128.10.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(5): 11/36
+ - Proc anonym-network-k6-4-w-noise(7): 11/31
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r8,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r8
+ - Proc anonym-network-k6-4-w-noise(2): 10/44
+ - Proc anonym-network-k6-4-w-noise(8): 11/30
+NotHolds PolicyType.Isolation,2.128.5.0/24,0,r3,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet2/0 (2.128.5.0/24)},r3
+ - Proc anonym-network-k6-4-w-noise(6): 12/33
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(0): 12/52
+NotHolds PolicyType.Isolation,32.15.13.0/24,0,r1,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.15.13.0/24)},r1
+ - Proc anonym-network-k6-4-w-noise(4): 12/38
+NotHolds PolicyType.Isolation,32.74.79.0/24,0,r5,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet140/0 (32.74.79.0/24)},r5
+ - Proc anonym-network-k6-4-w-noise(3): 11/41
+ - Proc anonym-network-k6-4-w-noise(10): 11/27
+ - Proc anonym-network-k6-4-w-noise(7): 12/31
+ - Proc anonym-network-k6-4-w-noise(9): 12/28
+ - Proc anonym-network-k6-4-w-noise(1): 11/48
+NotHolds PolicyType.Isolation,2.128.10.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet3/0 (2.128.10.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(5): 12/36
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r7,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r7
+ - Proc anonym-network-k6-4-w-noise(2): 11/44
+ - Proc anonym-network-k6-4-w-noise(8): 12/30
+ - Proc anonym-network-k6-4-w-noise(6): 13/33
+NotHolds PolicyType.Isolation,32.217.207.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r2:GigabitEthernet100/0 (32.217.207.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(0): 13/52
+NotHolds PolicyType.Isolation,32.15.13.0/24,0,r10,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet130/0 (32.15.13.0/24)},r10
+ - Proc anonym-network-k6-4-w-noise(4): 13/38
+NotHolds PolicyType.Isolation,32.63.110.0/24,0,r9,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet110/0 (32.63.110.0/24)},r9
+ - Proc anonym-network-k6-4-w-noise(3): 12/41
+ - Proc anonym-network-k6-4-w-noise(10): 12/27
+NotHolds PolicyType.Isolation,2.128.10.0/24,0,r2,PolicyStatus.HOLDSNOT,{9},{r6:GigabitEthernet3/0 (2.128.10.0/24)},r2
+ - Proc anonym-network-k6-4-w-noise(5): 13/36
+NotHolds PolicyType.Isolation,32.117.91.0/24,0,r11,PolicyStatus.HOLDSNOT,{9},{r4:GigabitEthernet120/0 (32.117.91.0/24)},r11
+ - Proc anonym-network-k6-4-w-noise(2): 12/44
+ - Proc anonym-network-k6-4-w-noise(9): 13/28

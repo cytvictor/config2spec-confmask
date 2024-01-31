@@ -3,6 +3,8 @@ from pybatfish.client.session import Session, HeaderConstraints
 import glob
 import threading
 import sys
+import os
+
 
 if len(sys.argv) != 3:
   print("Usage: python process_specs_verification.py <networks-name> <job-idx>")
@@ -35,6 +37,7 @@ def trace_tasks(nw, bf, specs, idx):
     specs_count = len(specs)
     holds_specs = []
     holds_not_specs = []
+    global results
     for spec in specs:
         print(f" - Proc {nw}({idx}): {i}/{specs_count}")
         i += 1
@@ -80,17 +83,19 @@ def trace_tasks(nw, bf, specs, idx):
                 spec = spec.replace("HOLDS", "HOLDSNOT")
             print("NotHolds", spec)
             holds_not_specs.append(spec)
-    results[idx] = (holds_specs, holds_not_specs)
+    results.append((holds_specs, holds_not_specs))
 
 for nw in networks[1:]:
     nw_name = nw.split("/")[-1]
     print(nw_name)
 
-    bf = Session("127.0.0.1", 10007 + JOB_IDX * 10, 10006 + JOB_IDX * 10)
+    bf = Session("127.0.0.1", 10007 + JOB_IDX * 10, 10006 + JOB_IDX * 10) 
     bf.set_network("test")
     bf.init_snapshot(nw, name="test", overwrite=True)
 
     # verify specs one by one
+    if not os.path.exists(nw + "/policies.csv"):
+        continue
     with open(nw + "/policies.csv", 'r') as fp:
         nw_specs_content = fp.read().__str__().splitlines()
 
@@ -109,7 +114,6 @@ for nw in networks[1:]:
         specs = nw_specs_content[1:][idx:idx+len(nw_specs_content[1:]) // (thread_count + 1) - 1]
         # print(len(specs))
         # print(idx,idx+len(nw_specs_content[1:]) // (thread_count + 1) - 1)
-        results.append(None)
         t = threading.Thread(target=trace_tasks, args=(nw_name, bf, specs, i))
         ts.append(t)
         t.start()
