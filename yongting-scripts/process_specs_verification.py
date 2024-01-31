@@ -85,7 +85,7 @@ def trace_tasks(nw, bf, specs, idx):
             holds_not_specs.append(spec)
     results.append((holds_specs, holds_not_specs))
 
-for nw in networks[1:]:
+for nw in networks[:]:
     nw_name = nw.split("/")[-1]
     print(nw_name)
 
