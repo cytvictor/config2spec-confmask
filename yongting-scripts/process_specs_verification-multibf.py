@@ -12,9 +12,9 @@ if len(sys.argv) != 2:
 
 # JOB_IDX = int(sys.argv[2])
 if ":" in sys.argv[1]:
-  NETWORKS_DIR = f"/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/{sys.argv[1].split(':')[0]}"
+  NETWORKS_DIR = sys.argv[1].split(':')[0]
 else:
-  NETWORKS_DIR = f"/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/{sys.argv[1]}"
+  NETWORKS_DIR = sys.argv[1]
 
 # NETWORKS_DIR = "/home/yongting/research/configs/config2spec-confmask/scenarios/confmask/fattree04-ospf"
 if ":" in sys.argv[1]:
@@ -40,17 +40,16 @@ def get_trace_accepted_count(traces):
 
 def trace_tasks(nw, specs, idx):
     i = 0
-    
+    nw_name = nw.split("/")[-1]
+    specs_count = len(specs)
     bf = Session("127.0.0.1", 20007 + idx * 10, 20006 + idx * 10) 
     bf.set_network("test")
     bf.init_snapshot(nw, name="test", overwrite=True)
-
-    specs_count = len(specs)
     holds_specs = []
     holds_not_specs = []
     global results
     for spec in specs:
-        print(f" - Proc {nw}({idx}): {i}/{specs_count}")
+        print(f" - Proc {nw_name}({idx}): {i}/{specs_count}")
         i += 1
         policy_type = spec.split(",")[0]
         src_name = spec.split(",")[3]
@@ -117,11 +116,13 @@ for nw in networks[:]:
     i = 0
     # divide specs into `thread_count` parts
     ts = []
-    for idx in range(0, len(nw_specs_content[1:]), len(nw_specs_content[1:]) // (thread_count + 1)):
-        specs = nw_specs_content[1:][idx:idx+len(nw_specs_content[1:]) // (thread_count + 1) - 1]
+    specs_per_thread = len(nw_specs_content[1:]) // thread_count
+    # print(len(nw_specs_content[1:]), specs_per_thread)
+    for idx in range(0, thread_count):
+        specs = nw_specs_content[1:][idx * specs_per_thread:(idx + 1) * specs_per_thread]
         # print(len(specs))
         # print(idx,idx+len(nw_specs_content[1:]) // (thread_count + 1) - 1)
-        t = threading.Thread(target=trace_tasks, args=(nw_name, specs, i))
+        t = threading.Thread(target=trace_tasks, args=(nw, specs, i))
         ts.append(t)
         t.start()
         thread_count += 1
