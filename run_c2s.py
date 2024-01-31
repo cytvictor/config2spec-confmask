@@ -48,7 +48,7 @@ if __name__ == '__main__':
     window_size = 10
     sampling_mode = "sum"
     trimming = True
-    waypoints_min = 3
+    waypoints_min = 1
     waypoints_fraction = 5
 
     # maximum amount of failures to be allowed

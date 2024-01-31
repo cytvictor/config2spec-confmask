@@ -24,6 +24,9 @@ class MinesweeperBackend(object):
         self.init = False
 
     def post_request(self, attribute, data):
+        print(self.base_url)
+        print(attribute)
+        print(data)
         try:
             response = requests.post(
                 url='{base_url}/{attribute}'.format(base_url=self.base_url, attribute=attribute),
@@ -80,7 +83,8 @@ class MinesweeperBackend(object):
         encoded_query = ""
         if failed_links:
             encoded_query = "EdgeBlacklist:{edges}".format(edges=",".join(link.name for link in failed_links))
-        response, response_content = self.post_request("get_dataplane", encoded_query)
+        # response, response_content = self.post_request("get_dataplane", encoded_query)
+        return "fib-1.txt"
 
         fib_file_match = re.match("^FIB:(fib-\d+.txt)$", response_content)
 

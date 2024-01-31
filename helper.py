@@ -80,7 +80,7 @@ def build_network(backend, scenario_path, max_failures, waypoints_min, waypoints
     num_waypoints = max(waypoints_min, int(len(all_routers) / waypoints_fraction))
     print(all_routers)
     print(type(all_routers))
-    waypoints = random.sample(all_routers, num_waypoints)
+    # waypoints = random.sample(all_routers, num_waypoints)
     waypoints = all_routers
 
     links = list()

@@ -126,6 +126,7 @@ class BackendTopologyBuilder(TopologyBuilder):
         with open(acls_path, "r") as infile:
             router = "unknown"
             for line in infile:
+                continue
                 if line.startswith("# Router:"):
                     router = line.strip().split(":")[1]
                 else:
